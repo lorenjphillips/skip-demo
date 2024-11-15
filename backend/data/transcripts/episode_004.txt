@@ -1,0 +1,1705 @@
+foreign
+welcome to the skip podcast the podcast
+dedicated to helping you get ahead in
+your Tech Career I'm your host nickel
+Singh Hall and today's episode I have
+invited a good friend of mine named
+shreyas Doshi many of you may have heard
+of Shreya shreyas is kind of a guru in
+the product management Community you can
+see his writing on Twitter he and I met
+many years ago as we were both kind of
+navigating career together and recently
+he's focusing on giving back to the
+product management community and
+building coursework and really trying to
+scale up what it means to to be a
+successful product manager and a
+successful product management executive
+a few months ago Australia's tweeted out
+a node on how success in academics
+doesn't actually lead to always success
+in professional life I invited treas
+to talk through career plateaus what
+causes professionals to get stuck what
+causes them to have success at one phase
+of career and then get stalled in
+another I think that his expertise and
+his diversity of working in lots of
+different environments have led to some
+real insight here and I think it's very
+appropriate for a lot of folks that are
+listening that that are worried about
+being stuck or maybe that are feeling a
+little stuck and not progressing like
+they used to so uh welcome shreyas
+thanks for having me nikhil so I maybe
+we'll just get right into it I think
+that one of the things that I was struck
+by when I was speaking with you is just
+the density and richness of your like I
+always say that careers are made by not
+one Playbook but having many playbooks
+so that you can take up every new
+challenge is not a page out of a
+previous Playbook but it's a blend of
+all these different lessons that one's
+learned and you've been a Yahoo and
+Google Twitter and stripe for probably
+some of the best known and most
+impactful companies of Our Generation
+and you've been in product management in
+most of these organizations and you know
+I just have to sort of say that
+oftentimes we say product management
+works like X
+but I think in your experience I suspect
+that you'll find them that flavored
+quite differently any any broad
+guidelines around how these companies
+might Define product management
+differently yeah perhaps they can start
+with a stripe where I joined very early
+in the product management
+functions kind of Life at stripe that
+was actually one of the things that
+really excited me about the roll at
+stripe
+which is hey here you have an already
+fairly successful company so I was
+talking to them late 2015.
+and so they already had a you know few
+hundred employees at that time and they
+did not famously have product managers
+uh you know since the early days and um
+they were just starting the product
+management function there were a couple
+of product managers that they had hired
+and then they were talking to me and uh
+I was really excited about this
+observation of like here's an already
+fairly successful company uh and uh now
+they are gonna
+experimenting with product management
+that's the best way I could put it and
+they were pretty upfront about it that
+this was an experiment and I thought
+what a wonderful opportunity uh to
+really see if I really believe in
+product management I'd been doing
+product management for 10 plus years
+already by that time it's very if I
+really believe in the value of product
+management it's such a great opportunity
+to kind of figure out if product
+management can add kind of singular
+value at a company that has already been
+fairly successful so that was why I
+ended up you know one of the reasons why
+I ended up taking the role at stripe
+even though it was unconventional in
+many different ways like I went from
+being a you know a PM leader to going
+back to IC when I took this trip role so
+there were lots of kind of strange
+things that some of my peers you know
+rightly said hey are you sure you want
+to do this and I was like no I want to
+do this and then what happened was you
+know over the next year or two
+you know we were defining uh you know
+the product managers there and the
+engineering managers we were we were
+trying to figure out what is the role of
+product management uh at stripe uh and
+there were actually a few attempts that
+were made to kind of like write
+documents of like this is what product
+managers do etc etc uh and uh
+unfortunately none of that kind of
+really stuck because even you know one
+and a half two years in people were
+fairly confused but wait what what is it
+that product management does here uh
+because it's a very product focused
+company already everybody cares about
+the product Etc uh and so at some point
+I said you know what like let me take a
+stab at writing something about what the
+role of product management is at stripe
+now that I've been here a couple of
+years I kind of have sufficient context
+um and I ended up writing uh if I
+remember correctly I ended up writing
+just three sentences
+and uh it turned out that that resonated
+strongly uh with everybody and so for a
+while that was the kind of you know
+official kind of role description of
+product management at stripe uh and the
+if I can share like the first sentence
+that I shared and this goes back to my
+kind of strong conviction of what
+product management truly is uh what I
+said uh I'm paraphrasing is the role of
+a product manager
+um is to Define what product to build
+and to orchestrate
+actions across the organization to make
+it successful
+okay so that was the first sentence and
+then since this was largely going to be
+read by like analytical product managers
+engineering managers Etc their very next
+question is going to be well how do you
+define success so of course I responded
+to that in the next sentence so the
+second sentence was uh success is
+defined
+by user adoption
+and business value
+right and since then I've extended the
+definition to customer satisfaction user
+adoption and business value right uh and
+so you need to have some of those if not
+all of those to say okay you know this
+is successful uh and uh that was pretty
+much it right like and
+uh then I had an FAQ section of uh you
+know you know what is the role of an
+engineering manager in such a product
+focused company and whatnot
+um and uh there was this very important
+recognition that I wanted to share and
+this kind of like you know actually goes
+back to my experiences at these other
+companies as well such as Twitter Google
+and Yahoo where a lot of the confusion
+and even the friction around the role of
+product management uh comes in when uh
+people are expecting completely mutually
+exclusive work which is like well that
+work that's product manager's job and
+that type of work is not the product
+manager's job
+and what I have observed you know over
+the years uh you know in terms of sort
+of
+how to make product management and the
+role work is that it needs to be the
+most adaptive role
+within a team
+right for instance uh and this is
+something I kind of wrote in the FAQs in
+that PM role description at stripe is
+there could be situations where you have
+a product manager and an engineering
+manager working together or a tech lead
+working together on some product uh and
+there could be situations where the
+engineering manager is uniquely skilled
+on some user insight
+um maybe because they have experience as
+a Founder in that space or whatever it
+is right so in that case it is fine for
+the engineering manager to take on some
+of the uh you know user conversations or
+to take on some of the go to market
+conversations
+right and similarly there might be cases
+where a product manager is kind of
+uniquely technical in a certain area and
+maybe in this situation the there is no
+engineering manager or there's a new
+engineering manager it might very well
+be that the product manager has to adapt
+again and go a little deeper into the
+technical weeds and Technical execution
+than they ordinarily would do right so
+so this I this point I think I only
+realized this after like 10 plus years
+of kind of observing product management
+in many places but this point is I think
+not clear uh to many people and so
+people expect like no no this is the
+boundaries within which I will work and
+don't you do anything in here and you
+know what I'm not gonna touch these
+other things because that's your job and
+that sort of approach and that trying to
+put product management as a role in you
+know in a spreadsheet with cells in
+specific rules doesn't quite work in my
+opinion um so so that's my overall kind
+of perspective on from what I've seen it
+with these various companies and what
+I've seen works with you know good
+product management
+yeah maybe another framing that I use is
+gaps in glue I think that oftentimes
+where the glue function you know
+everyone has the boxes in their org
+chart and the lines in between the boxes
+often come into product management and I
+think your Insight is that sometimes
+people own some of those lines they have
+leadership around collaboration or they
+own customer relationships or they may
+have expertise and the Art of product
+management is to sort of adapt and and
+and pull back when needed and lean in
+when when needed as well and it sounds
+like what you're telling me is the the
+way you're defining product management
+sort of Applied across these different
+companies that was sort of a consistent
+theme that you saw in the function
+curious around are there areas that
+these companies did Define product
+management very different certainly
+maybe because of the industry or the
+culture or perhaps the scale of the
+product I think the big differences I
+noticed were
+Inseparable from the culture of those
+companies and there were many big
+differences in the manner in which
+product management worked and product
+managers operated
+and so some interesting factors were
+saved you know when I joined Google this
+was I think 2008
+product management had been around at
+Google for a while by then but there was
+still this view that hey we are in much
+more engineering we are an engineering
+company
+and your role as a product manager is to
+support engineering
+in fact back then you know depending on
+which part of the Google org you were in
+it was often said that like everybody is
+just here to support engineering and
+that's your role
+um and uh you know that meant a very
+different way of approaching you know
+the product manager's work uh versus say
+Twitter which was uh a lot uh you know a
+lot more PM driven right it was uh it
+was
+you know it was expected that PMS for
+whatever reason the culture was such
+that like PMS are going to drive
+everything uh and sometimes it almost
+felt like some of the other functions
+there was lots of friction sometimes
+between pm and other functions because
+it was expected that like PM is the
+driver and everybody else is kind of the
+supporting function
+um and that caused its own set of
+problems because you know that's kind of
+like in my opinion that's not how you go
+about Building Product I saw you know
+something similar at Yahoo as well uh
+now I joined Yahoo you know during its
+better days but still like you know it
+was like around 2006 or so so again
+product management had been around for a
+while and there I saw it was even very
+Stark where you know that part I said
+where product manager's job is to define
+the product to be built uh well at Yahoo
+there were cases where uh you know some
+engineering teams would not build what
+it would seems like an obvious kind of
+you know feature teacher or error
+message or something because it wasn't
+in the spec and so you would have these
+conversations with folks of like yeah it
+wasn't in the prde
+but it's obvious that when the user
+Encounters this error we need an error
+message and the response used to be well
+but the product manager should have
+defined it right and so there wasn't
+that kind of agency and that you know
+user-centric view that many other
+functions had
+and stripe I think was the most
+interesting because
+um you know at stripe what ended up
+happening is that being customer Centric
+was just a core
+value that was applied across all
+functions um and being user-centric and
+even being product Centric was applied
+across all functions uh and so over
+there I found that my job as a product
+manager was uh the easiest in a way
+because I did not have to like convince
+people
+um that oh you know the product is not
+good enough we need to make it better in
+fact I would hear that from Engineers
+they would say you know what no no I
+need like two more days because I feel
+like this interaction is not you know
+well thought out or these this
+documentation is not great and we need
+to make it great and so uh so that was
+really fun for me as somebody who wants
+to build really excellent products that
+the entire fabric of the organization
+and because of the culture and it
+started with the founders the entire
+fabric of the organization was kind of
+you know pushing and like moving you
+towards building uh you know the best
+possible product that you can for your
+customers
+and and so I think a lot of these
+differences in the manner in which
+product management works uh are very
+deeply rooted in the culture itself of
+the company because again product
+management is such a you know broad
+function that works with so many other
+functions that um you know both the
+features and the bugs that come up are
+often just features and bugs of the
+culture itself I love that that's such a
+great statement and I think that
+with your depth of experience and
+diversity of experience in this
+important function product management
+you know I think you have so much to
+offer others one of the conversations
+we've been having over the last half
+dozen years is how do you scale yourself
+and your knowledge you know how do you
+give back
+um and and there's only so many roles
+that you can have full time and I think
+that you know looking even at your
+LinkedIn there's probably now I don't
+know maybe a half dozen to a dozen
+formal advisory rules that you've taken
+on and and I think that a lot of our
+listeners that are in this sort of act
+two of career where they're leaders
+they've had a lot of success they you
+know want to do more than maybe their
+day job they're asking this question
+around you know I I probably have
+knowledge that others would use I'd love
+to be an advisor but how does one go
+about doing that how do what kind of
+what kind of talent are they looking for
+companies why would they need me how do
+I plug in you know these questions and
+I'm sure you face those questions half
+dozen years ago you know how did you
+plug in to becoming an advisor and
+what's that relationship like and why
+has that been an investment for you yeah
+it's been such a such a fun Journey for
+me in this kind of uh this chapter of my
+career where I have at this point uh you
+know advised meaningfully advised more
+than a hundred companies a lot of most
+of the advising work I do is uh informal
+advising
+um and and then there are some kind of
+formal advising Arrangements that I also
+have where I work with Founders on a
+longer term basis whether it's six
+months 12 months or even longer
+sometimes and a couple of observations
+from my own Journey
+um you know I started uh getting this I
+did not plan for this necessarily but I
+started getting into this because uh you
+know while I was at stripe there were
+companies reaching out to me for you
+know leadership opportunities as they do
+I'm sure to uh you know many of your
+listeners as well
+and you know for whatever reason if the
+timing wasn't right
+um uh you know my the previous mode I
+took earlier in my career was just to
+say well the timing isn't right so you
+know let's talk again later uh but by
+this time I felt like I had both enough
+context and interest
+uh to still engage in a conversation
+with the founder not so much about not
+in the interview kind of setting but
+more in the setting of like
+uh uh okay so you know you presumably
+reached out to me because you heard good
+things from somebody else uh I am not
+looking for an operating role right now
+but
+um if you want to chat I'm happy to chat
+and I'm happy to you know provide my
+perspective on whatever it is that
+you're trying to do so that's really how
+it started and I had I don't know dozens
+of such conversations uh over my last
+you know two or three years at stripe uh
+and and frankly these things don't even
+take that much time because like on
+average it's just like one conversation
+a month or something like that so like
+anybody can manage that and the
+interesting that interesting thing that
+happened nikhil is um I'll share like
+what happened at my end and then at the
+Founder's end so at my end like again I
+had not planned any of this so I didn't
+know what to expect but I found myself
+extremely invigorated at the end of
+those conversations and by the way these
+were like intense conversations because
+like you know there's a very important
+problem or problems that the founder is
+kind of sharing with me uh and uh you
+know usually even if he had one hour
+we'd go one and a half hours sometimes
+two hours
+um
+and even at the end of it I felt like
+like a lot of energy
+so notice that and said okay that's
+interesting then on the other side
+sometimes I would ask the founders so
+like was this useful we just went
+through often it was the topic used to
+be like well I'm looking my VCS are
+telling me that I need a head of product
+a CPO VP product whatever uh what should
+I do and that's that's why they reached
+out to me to kind of like try to hire me
+um and so I say like I kind of like hear
+them out hear out what they're trying to
+do the strategy the challenges Etc their
+own kind of skills uh and uh their own
+kind of superpowers and then I would
+share my perspective
+um on things
+um and so after that I would ask them
+like so was this useful and often times
+I heard some version of the following I
+heard something like well you know you
+were one of the four or five people uh
+that uh you know I reached out to uh to
+kind of or talk to to understand this
+issue
+um and uh you know uh four of them said
+the same thing right uh and what you
+said you were the fifth one and you what
+you said was something entirely
+different
+um and your perspective resonated
+so I'm gonna try it out because
+sometimes say if it's the problem of it
+was not always the case but say it's the
+problem of okay I want to hire a head of
+product right uh the first question they
+ask is like what should I look for and
+who do you know right and so I would
+often tell them like that's the wrong
+place to start
+right it's like what are you really
+trying to do Etc like you know you go
+through that kind of like you know
+intense inquiry of like what are we
+trying to really do here uh
+so as so that we can set this person up
+for success and sometimes the conclusion
+that the founder would reach is actually
+I should not be hiring a CPO right now
+you know I should go hire a kind of like
+um you know um a mid-level experience PM
+uh and I should continue to do a lot of
+the product work and I should delegate
+certain aspects so that kind of this is
+a very important decision right like and
+so like helping Founders through this
+decision uh which like again like my job
+is not to tell them what to do my job is
+to help them figure out what the right
+thing is to do for them uh I heard often
+enough that like oh you know your
+perspective was different and it
+resonated
+and so that's when I started thinking
+well if I am deriving so much energy
+from this
+and if my perspective is uniquely useful
+then maybe there's something here right
+so that's that was kind of like the
+Genesis of this uh and then over time I
+just you know I was just like I kept and
+when I after I left Skype I kept myself
+open to yes if you know I'm happy to
+talk to energetic smart talented
+Founders uh with no kind of expectation
+of any kind of formal advisory
+relationship
+um and sometimes I would get on one or
+two calls sometimes three calls with
+them
+and in some of those cases they would
+say you know what I want to continue
+this I want to continue this and that's
+how you know some of my formal advisory
+work started was merely as a result of
+Founders wanting to continue that and my
+desire to want to continue working with
+the founder because I thought they were
+great yeah so hopeful there's so many
+nuggets in there I mean what I'm hearing
+is
+there is always opportunities because
+you're always getting unsolicited
+inbound
+and so you started paying attention to
+that and when you have those early
+conversations
+You observe two things one was how what
+was your energy levels after the
+conversation concluded and you notice
+that this was something that excited you
+which then meant you were naturally
+gravitated to prioritize and invest more
+and then the second is you got good
+feedback that you were saying something
+that you were clearly authentic and
+passionate about and you had Insight
+that others had had really valued and
+the combination was enough to lean in
+but you didn't start with i this 2023 I
+want five advisory roles and I'm going
+to run a process to find those you
+simply said can I help companies and
+enjoy it along the way and if one thing
+led to another and the company started
+to attach there was naturally some
+organic relationship that would follow
+because you wouldn't want it to stop on
+either side but if it turned out that
+after a couple of conversations it was
+enough that you either didn't have
+enough follow through or you had solve
+the Tactical problem well then it
+wouldn't make sense to be an advisor
+anyway and you part as friends and
+perhaps that leads to another future
+advisory role and so that looseness
+approach but opening yourself up to
+opportunity is what I'm hearing and I
+think it's great advice for folks that
+do find themselves this year maybe being
+a bit more constrained in their day job
+maybe because the role of shrunk or the
+company is not growing as much but
+there's so much activity in the industry
+and there's so much inbound take
+advantage of that to see if you can
+spark some desire and find some unique
+insights so I I really love that point I
+also noticed that I just got better as I
+had these conversations right like you
+know the first 10 advisory conversations
+I had uh you know I wasn't as effective
+and as useful as the last 10 I've had
+and that this kind of seems obvious of
+you know because you if you do something
+long enough you'd improve but my point
+is that
+perhaps you know early on I wasn't quite
+yet even ready to kind of like start an
+advising business right like I just
+noticed the quality of questions I ask
+now is so much better than the quality
+of questions I used to ask uh you know
+the first 10 or 20 or 50 times I did it
+and ultimately you know as an advisor
+uh there is Insight obviously and I
+share insight
+but the greatest value I can add is
+through the questions I ask you
+and I will now often ask you just like
+three to four questions
+and in many cases it like just the
+questions and the prompts and the
+follow-up questions and the discussion
+you as a Founder will end up within like
+and I've heard this often
+um you know that like oh I've been
+working on this for three or four years
+I spent an hour with you and I ended up
+with a completely different perspective
+on this thing I've been working on the
+last three four years and I look back
+and say like hey what did I do like I
+actually didn't do much other than just
+ask you the right three four five six
+questions uh and prompted you and nudged
+you and then you reached the the
+whatever conclusion that you were
+looking for on your own right like I did
+like I don't know about 50 different
+domains that I can give you a domain
+specific expertise uh it's for you to
+figure that out but it's the quality of
+the questions and so I do think it's
+important to understand that if we start
+approaching something from like I want
+to you know start a business or I want
+to start a practice here
+um we might actually lose out on that
+kind of like necessary uh you know early
+stage uh experience that we need such
+that we can actually build a very
+sustainable and a differentiated
+practice in these areas and I think
+there's questions are one of your many
+superpowers and I think I would say
+concise wisdom is maybe another way and
+you truly have embodied uh art when I
+look at your Twitter uh content because
+I've always struggled with communicating
+the concepts and the Frameworks that
+I've been building around leadership or
+career product management into short
+form content and you've managed to do it
+in that 140 characters I think that for
+those of you that are listening that
+aren't following stress on his Twitter
+feed you're really missing out because
+you get these questions you get these
+insights you get these clear
+where he's different from the the tribe
+that those those insights have been
+incredibly helpful to me to just
+sometimes just have vocabulary to frame
+something that's sort of ruminating but
+to have the words and to name it is so
+powerful and the combination of that and
+your small group super follower
+Community I think has been really
+insightful but I think you're on to
+something new lately is what I
+understand you're you're I think maybe
+you're you're a teacher by trade but
+you've been scaling up not only your
+content but you're you're teaching and I
+I don't know much about it but I read
+these highest Roi that I've ever spent
+on a weekend accelerated my product
+management career so tell me a little
+bit more about what you've been up to
+and and are are you effectively now
+teaching a course or how does that work
+yeah that's been
+um a really fun experience and I just
+started doing this about four or four or
+five months ago
+um and the way it started uh is uh as I
+was kind of you know after I let's left
+stripe this was in May 2021
+um uh I decided for the first time in my
+career to take some time to figure out
+what's next I talked to a lot of uh
+people uh I think guys you and I spoke
+as well about sort of like what's next
+and how to think about all of that uh
+and
+I had just kept an open mind that like
+oh you know I'm gonna start writing a
+little more because now I have more time
+and I have now a followership on Twitter
+and Linkedin uh and then I was I'm gonna
+continue doing more of my advising work
+uh you know which kind of again started
+while I was still at stripe uh so I'm
+gonna start uh you know doing more of
+those things
+and as those started working very well
+and gave me tremendous satisfaction one
+of the one of the things I noticed is
+there was something missing so like my
+advising work was covering for the
+one-on-one deep
+uh impact uh really well right like
+whether it's like with one founder or a
+couple of Founders or with Executives at
+the company uh that was just deeply
+satisfying it was like going deep and
+having context uh over a long period of
+time and um uh a high degree of impact
+to one company uh whichever one I'm
+advising right now okay so that was
+taken care of the one-on-one then I had
+the writing which by that time was now
+reaching hundreds of thousands of people
+um so so I had the one to hundreds of
+thousands also covered now over there
+obviously
+um you know the impact is not going to
+be as deep with all the hundred thousand
+plus uh people uh but it's going to be
+very Broad
+uh and I started sensing that there was
+something missing which was
+um you know what about the one is 200
+and one is to 1000 impact and the way it
+kind of manifested was I was getting a
+lot of requests for coaching
+yeah and I did not want to kind of start
+a conventional coaching practice uh
+because I was already already doing the
+Deep advising work and I felt like you
+know if I also start doing coaching then
+you know I'm just not going to be as
+effective with the Deep kind of strategy
+go to market culture advising that I do
+with startups so uh so that's when the
+idea of courses came about which is what
+if I can do coaching uh but through
+courses
+right and and so the manner in which now
+I've structured I have one course out
+right now which is about managing your
+product career uh where I'm sharing sort
+of you know 20 plus years of my own
+learning but also learnings from people
+I know
+um and uh also I interview uh you know
+product leaders and uh you know
+executive recruiters you and I had a
+conversation about that as well for my
+course
+um and I kind of like pack all of those
+insights into a weekend that is focused
+uh on sort of the end-to-end view of
+your career right from you know what
+sort of path do you want to create uh
+how do you build competence uh to how do
+you find the right companies because
+it's so important like a lot of our
+career is like really dependent on you
+know identifying the right company how
+to get hired uh how to negotiate a comp
+and like how to evaluate offers that's
+another area where I've seen people make
+so many mistakes where you did
+everything right up to this point but
+now you know you had three offers
+and you ended up picking the wrong one
+right like in hindsight the wrong one so
+is there a way to figure out like which
+is the right offer for you in a way that
+you minimize mistakes uh to sort of like
+how do you then get recognition within
+your company how do you grow within your
+company how do you get promoted how do
+you sort of you know plan for the right
+kind of ratings for your work that sort
+of stuff uh and then most recently I
+also added a section around how to deal
+with the tech jobs downturn that we are
+kind of starting to see here
+um so anyway so uh you know I've crafted
+that uh 800 people uh have already kind
+of gone through this and uh what I
+realized is my hypothesis was that uh if
+I structure this in a unique way and if
+I treat this course like I would treat a
+product and kind of basically just like
+product manage it uh such that I can
+have the right kind of effect on my
+users in this case my students
+um then that would be a you know
+wonderful kind of experience and
+hopefully useful for students and that
+hypothesis I would say has been proven
+at this point because
+um you know a lot of people have told me
+that like it just substantially changed
+the way they have they were thinking
+about their career you know they were
+just thinking kind of one track now they
+understand that for them there are
+actually various different tracks
+possible we go through a lot of
+exercises along the way as well uh for
+people to figure some of that out and
+then there's a community and various
+other resources available
+um so uh yeah all in all I'm super
+excited because now I'm able to fill
+this kind of 1 to 100 and one to one
+thousand Gap and kind of effectively
+what I'm trying to do nikhil is not not
+necessarily teach a course but coach a
+course right like it should feel like
+you are actually getting coaching from
+me because I just cannot scale to
+one-on-one coaching or even one two
+three coaching anymore uh and so as part
+of that I have these extensive AMA
+sessions where I'll kind of answer your
+questions and so on uh and then lastly
+people who take my course I want them to
+continue learning after they're done
+with the course as well I don't just
+want it to be like oh that was a fun
+weekend I learned a lot of new things
+new Frameworks met a bunch of people now
+I'm just gonna go back to doing what I
+was doing to solve that problem I've
+just recently last week launched
+something called Product club and so
+people who take my course are eligible
+to join product Club where they have an
+ongoing Channel with me there's a
+dedicated slack of everybody who took my
+course so now it's already 400 plus
+people who have joined product club and
+are on this slack and over there uh I
+will be doing monthly events with them
+where again it's kind of this AMA style
+I'll share what's top of mind and kind
+of again like in the spirit of coaching
+and group coaching kind of create a
+channel where I can reach you and I can
+address you know the questions and the
+challenges you're facing right now not
+just you know a month ago when you took
+my course so I'm super excited about
+that and now spending you know a pretty
+large amount of my time just focused on
+this well it's so appropriate for the
+listeners because many many of these
+listeners are thinking through their
+Tech careers and a lot of the questions
+you asked around decisions compensation
+thinking long term understanding how to
+navigate internal and external climates
+and downturns are all kind of dead on
+and so for those of you that that are
+thinking through you know those those
+questions you know burning a weekend to
+listen and learn from not only trust but
+from others that are going through the
+same problem I think is is a tremendous
+value add and what's also exciting to me
+stress is to hear that that's one that's
+only one class that you have in mind
+that there's others potentially coming
+and that there may be more more ways to
+sort of scale and product manage your
+wisdom which which I think is a great
+great way to frame it you know along
+those lines and along this sort of maybe
+pivoting a little bit to a tweet that
+caught my eye in July
+that had you know a lot of the
+characteristics of this ability to very
+concisely put language around something
+that I had been observing for decades
+you know and for decades you know
+looking at people that have had
+tremendous success and strength in
+academics you know you and I both are
+surrounded with folks in our industry
+who you know were at the top of their
+class from his prestigious University or
+Seto universities and had all the
+makings of just you know success in
+every way shape or form and what you
+find is they don't necessarily struggle
+on a consistent basis but they're just
+inconsistent
+there's almost no connection with their
+success 15 years later and their
+academic success some did incredibly
+well
+some never found their footing and some
+were in between and similarly if you
+look at some of the most successful
+entrepreneurs Executives and leaders and
+those that have Elite careers many of
+them didn't have tremendous academic
+backgrounds and so I've always kind of
+ruminated on this especially as you talk
+to parents who have kids that are so
+dedicated to trying to get their son or
+their daughter you know the best
+education the best school and that whole
+kind of rigmarole and you start thinking
+through well is this really that
+connected and I think you wrote this
+this really powerful
+the statement which is what we learn in
+school must be unlearned in business and
+in life
+and I just I thought that was so
+powerful and I I'd love to just to get
+your perspective maybe what what
+possessed you to to write this note and
+maybe we can go through some of the
+areas uh you know in this discussion but
+where did this come from yeah quite
+similar to you nickel I
+had been working with uh you know highly
+accomplished brilliant brilliant people
+um with wonderful wonderful resumes in
+some cases uh you know as peers in other
+cases is you know managers and in other
+cases as uh you know people who were on
+my team
+um and
+I started noticing and kind of asked
+myself the question of like well here
+you have somebody
+who just clearly has all the talent
+uh that you need to be highly successful
+in whatever it is that they're doing
+and yet
+the impact isn't there
+and not only that
+and this was especially true in cases
+where I was coaching mentoring or
+managing somebody because we would have
+you know deep conversations about this
+stuff
+um
+and yet you know both the impact isn't
+sort of in proportion to the talent and
+the potential but also
+they were just deeply frustrated with
+how things were going
+and uh and they couldn't quite figure
+out why things were not going the way
+they wanted them to go
+so that was
+that I I saw that often enough across
+companies and across teams and whatnot
+and I started thinking about why this
+might be occurring so consistently
+um
+and that's when I realized that a lot of
+now not entirely but a lot of um why
+that is happening is because
+the
+the things that you learn you know in
+your formative years
+um they work really well for you in
+those years in the academic context
+and then you know as many of us do we
+then tell ourselves a story that like if
+I do X
+I get y right
+and then we bring that story Into the
+workplace and actually early on perhaps
+at Junior levels it does work
+right at entry level uh it does work
+right because you have a boss and they
+will tell you like you need to do this
+and you go do that and uh and it's very
+structured and and you're given all the
+right resources uh there is no ambiguity
+uh and it works and so you say wow okay
+this works so let me do more of it right
+and then the organization recognizes you
+and now you are at the next level or the
+level after that and then all of a
+sudden it stops working and that's what
+causes that frustration which is like by
+this time now I've had you know whatever
+if 15 years 18 years of a certain
+approach that has worked wonderfully
+fully well for me look at my resume
+and now it's not working right and
+oftentimes what would happen nikhil is
+uh the first blame would go to the
+environment which is like oh this
+organization or this company you know
+it's screwed up in all sorts of
+different ways and if only we could
+align and create the right kind of
+optimal environment uh then you will see
+how much impact I can have right and so
+so you know and I've done so many deep
+kind of coaching conversations with
+folks on my team and others on this
+topic and that's what kind of led me to
+uh you know write this piece about the
+things we learned early on that work for
+us that then sometimes we have to
+unlearn later on this sort of career
+plateauing or frustration coming up in
+mid-career I think is what really
+connected me to the to the material I
+think concretely you mentioned that you
+know when you're in school you need to
+be good at following rules and following
+structures and yet in business breaking
+rules leads to outsized returns and
+you're often expected to create your own
+structure and we've talked about on this
+uh podcast how oftentimes managers are
+actually quite weak at creating the
+structure and letting you color within
+the lines particularly as you become a
+leader and feedback is extremely clear
+in school you get tests and grades and
+the goals are very obvious you get
+graduation and you get to the next level
+but in business feedback is actually
+quite rare and good feedback in
+particular and that there's such small
+differences between winning and losing
+it's not so concrete of a versus B
+versus C and timelines are often very
+short they're measured in a quarter or a
+semester or a year and then there's a
+clear ending you know I'm going to
+graduate at the end of this year go to
+school college but careers are you know
+20 jobs 15 jobs 12 jobs for many people
+and the best rewards often take many
+many years where you see all these
+examples of we worked for six seven
+years before we found you know
+confidence or skill or or product Market
+fit so things are relatively short-lived
+so these are the things when it you know
+comes to these structural rules would
+would you say that now when you apply it
+to managers that might be in this mode
+where they're feeling stuck are they
+struggling with this and maybe a a
+better way to ask the question is
+what is your coaching advice for folks
+that are in this sort of rural feedback
+timeline it wasn't in the PRD so I'm not
+going to do it so they're very much
+sticking to the lines but we both know
+that leadership is often breaking lines
+creating your own how do you cook
+someone to see that and change that
+behavior the general theme I see often
+is
+this idea of
+you know well
+I need uh so this is like a you know a
+leader
+um whether it's a you know first level
+manager or perhaps even uh you know
+director VP level person
+um who says well
+I can
+I'm responsible for this goal or I'm
+responsible for this metric
+or whatever
+uh and the challenge is that uh you know
+the rest of the organization there isn't
+Clarity isn't there isn't Clarity on how
+this fits in and there isn't Clarity uh
+on you know just how much of a priority
+this is ETC
+um and and that often is a team that uh
+you know I have um dealt with as a
+manager or in some cases as I was
+coaching folks
+um
+and my Approach is to help them realize
+through a series of questions
+that effectively this is why you have
+this role
+right is like you know your number one
+job is to create Clarity in an
+environment
+that is extremely noisy is extremely
+complex
+and is by definition ambiguous
+right so so your job shifts from
+you know just kind of through sheer will
+and sheer discipline just getting things
+done because that's what you gets you
+promoted early on that's what gets you
+good grades right like there's a rubric
+uh you know the the teacher or the
+professor publishes the rubric and then
+you follow the rubric and voila you know
+you get the a grade
+um
+and
+that transition that uh you know the
+folks who are kind of sometimes feeling
+stuck uh that they need to go through is
+that oh now it is my job to create that
+clarity
+right like and there is never going to
+be an environment uh you know from this
+point forward uh if I'm gonna be
+operating at these levels where the
+clarity is ready made
+right uh and so so then once they
+realize it and look I cannot tell you
+that directly because if I tell you that
+it's not going to work you have to
+realize it yourself and that requires
+you know a series of questions uh
+introspection and all of that but once
+you reach that point
+now we are having a very different
+conversation right we are having the
+conversation of
+okay so so now how much uh you know how
+much responsibility are you going to
+take
+to tell uh the CEO that this is what
+needs to happen right how much
+responsibility are you going to take to
+tell your cross-functional peers uh that
+here's where we are headed uh and and
+then then we can start talking about
+okay now how do you communicate it what
+are the tactics and the techniques and
+the process that you use to communicate
+all of this uh across your organization
+in a way that the efforts are cohesive
+and and people are motivated and all of
+that right uh and so oftentimes you know
+people kind of jump directly to this
+which is like oftentimes you know a lot
+of times what happens is people
+people encounter a problem and they jump
+directly to how do I do this right
+um whereas like sometimes I have to help
+them understand like first let's
+understand what is your role and what it
+is that even needs to be done and when
+we can figure that out and it's the
+correct thing the how actually writes
+itself and I can help you with that but
+you know we can get to the how but we
+first need to understand what your role
+is in all of this and folks who cannot
+make this transition
+uh they kind of feel stuck in their
+careers and oftentimes they're uh you
+know the executive team uh the CEO is
+also frustrated that here you have
+somebody with great potential uh but
+they are not quite you know creating the
+clarity I need uh they're not quite
+creating the clarity for their area uh
+that will move things forward
+uh and uh you know I also see this
+tendency nickel sometimes in folks who
+kind of spent a lot of time in um you
+know very large companies because in
+very large companies even if you are at
+kind of senior director level and what
+not sometimes uh you are handed uh sort
+of like you know a recipe a roadmap in a
+specific set of things to do if you've
+been doing that for many many years and
+now you're going to a startup uh you're
+now all of a sudden going to be confused
+because there isn't that you know clear
+chatter that you've been given and I saw
+this quite a bit you know at stripe and
+also in places you know where I've kind
+of advised Executives have gone to
+startups from large company environments
+where they often felt like well but we
+don't know like you know hey it's so
+screwed up like the we don't have a
+clear strategy or we don't have uh you
+know there's all this kind of open
+questions that are not answered and then
+I have to help them understand yeah it's
+your job to create that Clarity to help
+answer those questions such that you can
+have that cohesive execution
+the things that come to mind when I hear
+you describe this is mindset and courage
+and what I mean by that is those that
+succeed in coming to the conclusion that
+you pose through questions that hey what
+got me here isn't necessarily what gets
+me there
+I need to unlearn
+maybe the things that I would even
+suggest are my superpowers or my
+professional identity here and maybe in
+the case of school my academic identity
+and I needed to come in with The
+Beginner's mindset that there must be
+maybe a different way of solving the
+problem that I'm not a victim to the
+ambiguity but that I own the ambiguity
+it becomes my problem not the
+environment or the company or the CEO or
+the management team's problem I am part
+of it
+but I think that even having said that
+that's a lot of energy
+that is not an easy task there's a
+reason why people don't take on more
+responsibility or go from these late
+stage to early stage environment because
+it does take courage you know it takes
+this interest in starting again and
+going through the process of relearning
+and maybe even unlearning and I'm
+curious as to how you think about this
+mindset and shift and this energy and
+courage required would you agree that
+that's important and perhaps how do you
+ensure that people have it when they're
+faced with this challenge
+I like the characterization of a lot of
+these attributes in terms of uh this
+term I encountered I think Eric
+Weinstein uh coined it called high
+agency
+and it is essentially the idea that like
+some people are just kind of high agency
+people
+and they
+just take on problems they with full
+ownership
+and they furthermore apply a high degree
+of creativity to solving the those
+problems
+and along the way they show
+a high
+degree of resilience and confidence
+um
+as they encounter challenges which are
+inevitable in complex you know
+high-stakes environments uh and so that
+combination of uh you know resilience
+and confidence and ownership mindset
+and
+uh the creativity
+and then lastly influential
+communication
+so those five things when we put
+together you get this you know idea of
+high agency
+um and
+I think that is again one of the key
+things I've noticed that um
+you know once you go from you know doing
+a job really well to needing to lead a
+job that needs to be done well to
+needing to lead uh many many jobs that
+need to be done really well
+that a high agency is the big
+differentiator between sort of like you
+know good and ordinary and good careers
+and really great careers and great
+impact
+um and I do believe that this is
+something that uh can be cultivated
+um you know now any kind of world-class
+levels of any of these things a lot of
+it is kind of you know inborn like sort
+of traits Etc but just because
+you know uh certain things like some
+people are just naturally great
+communicators right like they did not
+have to do much it seems effortless
+right but just because somebody is a 10
+out of 10 Communicator just because they
+have some natural gifts uh that doesn't
+mean if I am a six that I shouldn't
+strive to be a seven eight or a ninth
+right uh and and so so I do think that
+kind of uh that that's where some of
+that mindset comes in as well which is
+like uh look oftentimes um you know I I
+share some of this in my course as well
+uh that you know one of my observations
+is that oftentimes especially as kind of
+you know leaders most of our problems
+are actually in many ways messaging
+problems
+right uh and because we need to be able
+to we know what the right thing is uh
+and however we got to that conclusion we
+know what the right thing is but there
+are so many challenges along the way to
+kind of message it in a way that
+resonates with everybody that aligns
+everybody that excites everybody right
+so it's a messaging problem so so so
+how do you deal with it right like if
+you're just focused on the content if
+you told yourself the story of like no
+no just the content everybody should
+figure this out on their own like why
+like why can't they figure this out like
+are they idiots right like I see a lot
+of that kind of you know approach and
+you know thought processes uh and and
+what you have to unlearn here is
+um now look like this is where you need
+to exercise the skill of influential
+communication which again one of the
+attributes of high agency and you know
+if a message doesn't resonate one way
+you gotta try it another way and in fact
+you know at higher levels your job is to
+just be a repeater right like you're
+just repeating the same thing over and
+over again in different ways such that
+it will resonate with people
+um
+and and you know like for instance one
+like very tactical example I'll use is
+some leaders will say you know
+oh I like sending written updates right
+so I will send emails and I expect the
+team to kind of you know I'll put my
+thoughts in I'll put a lot of care into
+it and and I expect the team to read it
+and kind of understand I have a large
+org so I expect them to understand what
+needs to happen and then it should
+happen right well it turns out if you
+cannot just think a little critically
+about this say you have an organization
+of uh 1000 people 500 people even 100
+people or even 30 people it turns out
+that some people
+naturally resonate with the written word
+format right they love they devour your
+emails or your Google Docs or whatever
+uh and uh and it works for them and they
+get the message at the same time there
+are some other people for whom this kind
+of verbal communication is the thing
+that's going to resonate right so you'll
+have to go up there and this is
+something I had to learn as a leader as
+well you have to go up there and at all
+hands or team meetings or whatever you
+need to make appearance in every single
+team meeting within your org and talk
+about this because that's what they are
+going to really resonate with while the
+email people are like well this meeting
+could have been an email right and and
+then in some cases some people are
+highly Visual and so if there is a
+vision you want to convey you might even
+have to create some you know inspiring
+prototypes and inspiring mock-ups you
+know and and even though it's very early
+stage you might even have to do that
+because the words you know for some
+people just reading the words is not
+enough right like they need to see how
+it's going to manifest and the the
+moment they see that manifestation they
+are like aha now I get it right I did
+not get the email I did not get the
+Google Doc I did not even get the
+All Hands where we talked about this
+but I got
+the marks right or I got the customer
+story right so so this is an example of
+something where I find that like people
+need to kind of you know change the
+mindset of like now it's no longer about
+you know what medium you prefer what is
+your superpower it's about figuring out
+what works for your organization and
+then influentially communicating uh in
+variety of different ways so this is
+just one example but this is the kind of
+thing um that takes some leaders a
+really long time to sort of like you
+know come to terms with that's that last
+thing that I think is probably the other
+piece that I'd want us to
+emphasize for those listeners that are
+feeling like they're plateauing they're
+hearing shreyas talk about you need to
+take a bit of a step backward assess the
+needs of the organization take some
+agency take some ownership and then re
+re rethink your style rethink your
+approach
+the fact is that these things take time
+they are not going to happen overnight
+and why that's an important statement is
+in the past you might have been promoted
+every year you might have been a
+straight A student you might have found
+things come easy because the way that
+you think is the same way that others
+expect but now your organization's
+larger the tools need to be more diverse
+you have to own the ambiguity as opposed
+to be shielded from it and so it's not
+unusual for uh for me to see people who
+have had very fast starts to careers
+quote unquote hit a bit of a wall when
+they get to management when they get to
+even executive and that hit the wall
+might be them just working through the
+pain of relearning themselves relearning
+their technique
+and then they unstick
+and then they start moving quickly
+forward and so you have to have that
+courage that patience and that optimism
+that you maybe are a six today but when
+you're an eight things will unlock but I
+think if your mindset is this I must be
+doing something wrong because I or the
+environment must be wrong because I was
+moving so quick in the past perhaps it's
+exactly the opposite
+as we conclude
+I'd love to just maybe get a last few
+words from you on any additional advice
+you have for those that are listening
+that really feel like they're stuck a
+bit and that they're hearing your words
+they're understanding they need to go
+through this but any Beyond maybe taking
+your class any other ideas that might
+help them as they approach this sort of
+unsticking themselves from this sort of
+spot they're in the main thing I I would
+suggest that folks consider
+is
+that
+there are many more options available to
+you than meets the eye
+because I think we we do have I see
+especially in highly
+High Talent
+fast-paced organizations which naturally
+then like sort of you know there are
+many ambitious people in these companies
+um
+and a lot of times nikhil I see
+um people are just
+focused on the conventional path which
+is like okay I'm at L 8
+the next is L9
+and uh
+the one after that uh is going to take
+me two more years or three more years
+and that is a viable path for sure
+but uh
+it is not for everybody
+and I think people there is this kind of
+some almost
+stigma around
+you know oh if you are ambitious but if
+you are not VP by this time that means
+you know something's wrong with you or
+you failed or whatever
+um and it turns out that like that's why
+there are many people who reach the VP
+stage or the CPO stage and they kind of
+hate it because that was not the
+authentic path for them
+right or maybe they should have explored
+a few other things before uh you know
+they they tried to go for the CPO role
+or whatever that is
+and so I think a lot of people just kind
+of miss that and it's almost it's
+sometimes I feel like it's it's like uh
+you know a video game which is like okay
+the point of a video game is to get to
+the next level and if I do these things
+I get to the next level but it's kind of
+like you need to understand what awaits
+you at that next level uh you need to
+understand if um you know you have the
+right skill set uh you know just because
+you know just because the next level
+exists uh doesn't mean that that has to
+be your only goal even if say you have
+the right skill set uh maybe it's not
+the right time in your life right uh and
+uh maybe it's uh you know maybe maybe
+you would find more fulfillment uh in
+just staying at the level you are for
+the next three four years but trying
+different things right developing
+different skills
+um
+so so that's just like one aspect of the
+general point that uh I like uh folks to
+really think hard about is like just you
+know be rigorous about your career
+decisions and as product people uh you
+know many of us pride ourselves on uh
+you know making really great uh product
+decisions whether that's via marrying
+data with anecdotes Etc but we pride
+ourselves in making really great product
+decisions well like you we should be
+applying uh that same degree of rigor
+that same degree of thoughtfulness to
+the most to what I would argue is the
+most important product which is
+ourselves right uh and and
+you know I'll share a concrete example
+sometimes for instance here's how this
+manifest where you know folks feel like
+they have the right idea but they don't
+and then they make inauthentic choices
+so oftentimes I'll talk to somebody
+who's super ambitious say they are a big
+tech company like Google or something
+else and you know they'll they they want
+to figure out what net what's next for
+your career uh
+naturally the topic uh sometimes the
+topic that they bring up is like well
+actually
+you know three years from now four years
+from now or a couple of years from now I
+expect to that I I should be founding a
+company
+uh I want to do a venture back startup
+that's something I've always dreamed of
+and I I think I'm Gonna Be Ready
+life-wise Etc to do that couple of years
+from now okay great uh so then we start
+talking about okay what's next
+and so then they'd say okay in order to
+do that
+the next thing I need to do is I need to
+uh you know become VP
+okay and so I asked them like okay help
+me understand you know what your
+rationale is and it often boils down to
+like two things uh one of two things uh
+one is oh is that way I'll manage larger
+scope I'll know how to manage uh I'll
+I'll maybe own p l I'll know how to
+manage the company manage people manage
+organizations and that's a useful skill
+obviously as a Founder uh so that's one
+version I hear and the other version I
+hear is oh it might give me more
+credibility with VCS and whatever else
+that's roughly the two reasons I hear
+and then like I have to point out that
+like you know your number one job as a
+founder of an early stage venture-backed
+startup is not to manage an org
+right it's to build a product that
+resonates highly such that you reach
+this kind of product Market fit
+right because without that your old
+building skills or your old management
+skills are kind of useless
+right and let's face the reality that
+most startups never make it to that
+point
+right so just logically if we were to
+really deeply logically think about this
+in like rationally do it without putting
+emotion into it and without having kind
+of LinkedIn and we uh like just if we
+look at it rationally it makes more
+sense for you
+for over the next two years to figure
+out what skills you need to develop what
+product skills you need to develop right
+uh what design skills you need to
+develop or what domain skills you need
+to develop such that you maximize the
+odds that your startup hits product
+Market fit right nothing else matters
+until then and if there are gaps there
+let's go fill that Gap right and that
+might actually mean not going for that
+VP promotion because as a VP you're not
+going to get to exercise a lot of these
+skills that we are talking about because
+there are other people in your team that
+are going to be doing that right it
+might even make sense depending on your
+situation that you go back to an IC role
+right for an early stage kind of
+initiative that you take forward uh or
+it might even mean something else where
+you take a role which is not all that
+time consuming so that you can kind of
+incubate your new Venture
+um you know on weekends or in uh in
+evenings uh as you kind of embark on
+this right so again there is no one
+right answer for everybody but this is
+an example where I think most people
+assume that like oh this thing is the
+right answer for me but uh you know
+we've just got to think critically about
+it and we've got a like my I would
+encourage you to kind of a lot of these
+things happen because the ego comes into
+play right like we want that VP title
+and then we rationalize that desire with
+through some logical explanation and so
+we we really have to kind of like you
+know look at that a little more closely
+and objectively and you know the ego is
+there but like try to at least you know
+see that the ego is playing a role here
+have the courage to find your own path
+recognize that the path that a company's
+laid out isn't necessarily the career
+path for you and and I think embrace the
+opposite of conventional wisdom whether
+it's strength and academics don't lead
+to professional success or getting that
+VP maybe the exact opposite thing to
+become a great founder or perhaps even
+to drive fulfillment and career
+maximization and I think that a lot of
+the courage is to find your own path to
+reinvent oneself to take that step
+backwards and and have that beginner
+mindset for your own career which is you
+know ultimately the most important
+product so trans thank you for joining
+me today uh for those people that are
+listening that want to get in touch with
+you what's the best way to do that well
+obviously put it in our show notes a few
+critical links but how do you want
+people to find you so I'm on Twitter and
+on LinkedIn so feel free to follow me on
+either of those platforms feel free to
+you know message me my DMs are open I
+cannot answer every single DM but I try
+so I would love to continue this
+dialogue well thank you for joining and
+uh and and we are more than excited to
+have you back for a future episode
+thanks for having me nikhil this is a
+blast

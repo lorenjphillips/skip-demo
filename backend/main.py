@@ -93,6 +93,41 @@ async def test_endpoint():
     except Exception as e:
         return {"error": str(e)}
 
+@app.get("/debug-stats")
+async def debug_stats():
+    try:
+        # Get collection info
+        results = collection.get()
+        unique_episodes = set()
+        for metadata in results['metadatas']:
+            if metadata and 'episode_id' in metadata:
+                unique_episodes.add(metadata['episode_id'])
+
+        collection_stats = {
+            "name": collection.name,
+            "total_chunks": len(results['ids']),
+            "unique_episodes": len(unique_episodes),
+            "episode_ids": list(unique_episodes)
+        }
+        
+        # Get a sample query to show the process
+        sample_results = collection.query(
+            query_texts=["test query"],
+            n_results=1,
+            include_distances=True
+        )
+        
+        return {
+            "collection_stats": collection_stats,
+            "sample_query_results": {
+                "number_of_matches": len(sample_results['documents'][0]) if sample_results['documents'] else 0,
+                "similarity_scores": sample_results['distances'][0] if sample_results['distances'] else None,
+                "sample_metadata": sample_results['metadatas'][0] if sample_results['metadatas'] else None
+            }
+        }
+    except Exception as e:
+        return {"error": str(e)}
+
 @app.post("/query")
 async def query_transcripts(query: Query):
     try:
@@ -120,24 +155,45 @@ async def query_transcripts(query: Query):
         completion = client.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[
-                {"role": "system", "content": "You are a helpful assistant that answers questions about podcast episodes. Always cite the episode title in your response."},
-                {"role": "user", "content": f"Context from podcast transcripts:\n{context}\n\nQuestion: {query.question}"}
-            ]
+                {
+                    "role": "system", 
+                    "content": "You are a helpful assistant that answers questions about the Skip Podcast. " +
+                              "Always cite the specific episode title in your response, and provide detailed " +
+                              "answers based on the context provided."
+                },
+                {
+                    "role": "user", 
+                    "content": f"Context from podcast transcripts:\n{context}\n\nQuestion: {query.question}"
+                }
+            ],
+            temperature=0.7,
+            max_tokens=500
         )
         
-        # Access the response content using new syntax
+        # Access the response content
         answer = completion.choices[0].message.content
+        
+        # Prepare sources with URLs
+        sources = [
+            {
+                "episode_id": meta['episode_id'],
+                "title": meta['title'],
+                "url": meta.get('url', '')  # Get URL from metadata if it exists
+            }
+            for meta in results['metadatas'][0]
+        ]
+        
+        # Remove duplicate sources while preserving order
+        seen = set()
+        unique_sources = []
+        for source in sources:
+            if source['episode_id'] not in seen:
+                seen.add(source['episode_id'])
+                unique_sources.append(source)
         
         return JSONResponse(content={
             "answer": answer,
-            "sources": [
-                {
-                    "episode_id": results['metadatas'][0][i]['episode_id'],
-                    "title": results['metadatas'][0][i]['title'],
-                    "timestamp": results['metadatas'][0][i]['timestamp']
-                }
-                for i in range(len(results['metadatas'][0]))
-            ]
+            "sources": unique_sources
         })
     except Exception as e:
         print(f"Error in query_transcripts: {str(e)}")
@@ -148,6 +204,11 @@ async def query_transcripts(query: Query):
             status_code=500,
             content={"detail": str(e)}
         )
+
+# Health check endpoint
+@app.get("/health")
+async def health_check():
+    return {"status": "healthy", "version": "1.0.0"}
 
 if __name__ == "__main__":
     import uvicorn

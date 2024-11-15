@@ -5,13 +5,20 @@ import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { ScrollArea } from '@/components/ui/scroll-area';
-import { Loader2 } from 'lucide-react';
+import { Loader2, ExternalLink } from 'lucide-react';
 import Image from 'next/image';
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
 
 interface Source {
   episode_id: string;
   title: string;
-  timestamp?: string;
+  url: string;
 }
 
 interface Message {
@@ -27,6 +34,39 @@ const LoadingDots = () => (
     <div className="w-2 h-2 bg-slate-400 rounded-full animate-bounce"></div>
   </div>
 );
+
+const VideoDialog = ({ url, title }: { url: string; title: string }) => {
+  // Extract video ID from YouTube URL
+  const getYouTubeEmbedUrl = (url: string) => {
+    const videoId = url.split('v=')[1]?.split('&')[0];
+    return `https://www.youtube.com/embed/${videoId}`;
+  };
+
+  return (
+    <Dialog>
+      <DialogTrigger asChild>
+        <Button variant="link" className="p-0 h-auto font-normal hover:no-underline flex items-center gap-1 text-purple-600">
+          {title} <ExternalLink className="h-3 w-3" />
+        </Button>
+      </DialogTrigger>
+      <DialogContent className="max-w-4xl w-full">
+        <DialogHeader>
+          <DialogTitle>{title}</DialogTitle>
+        </DialogHeader>
+        <div className="aspect-video w-full">
+          <iframe
+            width="100%"
+            height="100%"
+            src={getYouTubeEmbedUrl(url)}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            className="rounded-lg"
+          />
+        </div>
+      </DialogContent>
+    </Dialog>
+  );
+};
 
 const PodcastQuery = () => {
   const [question, setQuestion] = useState('');
@@ -50,6 +90,7 @@ const PodcastQuery = () => {
     setQuestion('');
     setLoading(true);
 
+    // Add user message immediately
     setMessages(prev => [...prev, { type: 'user', content: userQuestion }]);
     
     try {
@@ -68,12 +109,14 @@ const PodcastQuery = () => {
       
       const data = await response.json();
       
+      // Add assistant message with response
       setMessages(prev => [...prev, {
         type: 'assistant',
         content: data.answer,
         sources: data.sources
       }]);
     } catch (error) {
+      // Add error message
       setMessages(prev => [...prev, {
         type: 'assistant',
         content: error instanceof Error ? error.message : 'Failed to fetch response'
@@ -121,8 +164,7 @@ const PodcastQuery = () => {
                           <ul className="list-disc pl-4">
                             {message.sources.map((source, idx) => (
                               <li key={idx}>
-                                {source.title}
-                                {source.timestamp && ` - ${source.timestamp}`}
+                                <VideoDialog url={source.url} title={source.title} />
                               </li>
                             ))}
                           </ul>

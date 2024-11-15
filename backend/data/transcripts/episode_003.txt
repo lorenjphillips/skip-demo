@@ -1,0 +1,1675 @@
+foreign
+welcome to another episode of the skip
+podcast uh podcast podcast dedicated to
+you and your Tech Career and how to get
+ahead of it today's episode focuses on
+uh dense technical subject called Equity
+Equity means the stock the options the
+rsus that you have in your compensation
+package and I think that it's one of the
+hardest things to understand but one of
+the most important things I chose to to
+walk everyone through this subject not
+because I want everyone to be experts
+but I want everyone to go from beginner
+to intermediate and I think it's it's
+important especially these days because
+evaluations of companies have changed so
+much in the last year Equity is for many
+of you a huge part of your compensation
+and this episode really focuses on
+private companies private companies have
+stock prices that aren't public and as a
+result it's always really hard hard to
+understand how much you're actually
+making and more importantly you don't
+always know whether the terms that you
+have are actually going to lead to
+liquidity or or the ability to make
+money on your stock today's episode will
+focus on the basics but also the common
+mistakes that people make especially
+when it comes to negotiating offer
+letters
+vesting stock and how to manage exits
+these are the areas that when I'm
+talking to Executives and other folks
+that I coach they come with all kinds of
+questions and it's one of my most
+important subjects because of the
+implications around long-term
+compensation now though this is a
+technical subject it's really not
+designed to to replace the professionals
+that are in your life the lawyers the
+accountants the financial managers
+they're really helpful to understand
+your personal situation I'm lucky to be
+joined by Anthony mccusker and Linda
+Galligan on this podcast they both work
+at Goodwin Proctor which is a legal firm
+that represents Founders
+entrepreneurs Executives and obviously
+lots and lots of companies and they have
+all types of information around equity
+and that's who I go to and they're going
+to help explain this very complicated
+instrument please welcome Anthony and
+Linda thanks for for having us
+um we're thrilled to be here with you my
+name is Anthony mccusker I'm a corporate
+partner at Goodwin Proctor I co-chair
+our technology practice and represent
+companies from
+um brand new startups with a couple
+Founders through public company and
+everything in between
+um and so sort of guiding through the
+corporate transactions that occur
+um you know throughout the life cycle of
+a company
+that's great yeah Anthony and I have
+known each other for probably two too
+many uh decades to to speak of but um
+you know you've both represented me and
+and been one of my my guides and Sherpas
+is I've been navigated the tech space
+and part of the reason I invited Anthony
+is because he really educated me about a
+lot of the the challenges around
+compensation equity and actually helped
+me avoid a lot of really important and
+challenging mistakes I'm really
+delighted to have him here
+um Linda uh I'd love to get your uh
+introduce yourself and also
+um you know make sure that that you're
+part of our conversation today thanks so
+much for having us I'm Linda Galligan
+I'm a partner at Goodwin I focus my
+practice on Executive and employee
+compensation and I work with companies
+throughout their life cycle so
+everything from pre-funded startups all
+the way up to multinational public
+companies and everything in between I'm
+so glad to have you on the episode uh
+because both of you have helped me so
+much in my career navigating some of the
+tricky situations and my hope is that
+there's you know listeners out there
+staring at an offer right now like let's
+just take that as this starting point
+and you know Equity has so many
+dimensions that I think it's it's the
+Thousand questions everyone's afraid to
+ask
+um and maybe we'll just start with the
+really simple example so
+someone calls me and says hey I'm
+thinking about joining startup X and you
+know startup X is offering me an equity
+package and what they mean by that is
+they've got some stock options that are
+coming to them let's maybe let's call it
+5 000 a year and you know they're saying
+that it's going to take four years for
+me to get my 20 000 stock options and
+they're telling me that if all goes well
+it's going to be worth 100 Grand and you
+know if that's actually the case I feel
+like it's a pretty reasonable offer but
+the voice in the back of my head is well
+is it worth a hundred thousand could it
+be worth more could it be worth less
+what is an option you know so maybe
+today we can kind of just like pull this
+apart you know between the three of us
+and try to explain it so maybe I'll
+start by asking you know like how what
+is this stock option and how do
+companies you know create this ownership
+set of structures between stock and
+option preferred stock
+um maybe one of you could help me
+understand that so you've sort of set it
+up well Mikhail like the
+um technology or life science or any
+venture-backed startup will generally
+have sort of you know three categories
+of stock along its Journey preferred
+stock com and stock and will have you
+know sort of incentive Equity whether
+that's options or some other form like
+an RSU and the companies sell preferred
+stock to their investors so Venture
+investors Angel Investors they will
+generally hold preferred stock and then
+the founders when they start the
+business will hold common stock and then
+the employees and other advisors along
+the way will receive common stock in
+exchange for the options that you know
+like you've you've outlined so on day
+one a founder or founding team would own
+100 of the company all in common stock
+and then would ideally sell preferred
+stock at some point fairly quickly in
+its journey to Preferred investors and
+you might have you know 25 or 30 percent
+of the company going to some investors
+in the form of preferred stock and the
+balance would be in the founders with a
+usually somewhere around 10 to 20
+percent usually kind of 10 to 15
+probably is standard of that overall
+capitalization reserved for an option
+pool
+um and the reason that you sell
+preferred stock to investors or one of
+the reasons you sell preferred stock to
+investors and keep common stock for
+um for the team is along that private
+company Journey you can actually sell
+the preferred stock for like an
+Enterprise Value if you will what's the
+whole Enterprise worth
+um and that preferred stock has rights
+preferences and privileges things like
+liquidation preference and voting rights
+that require their approval for certain
+transactions anti-dilution protection
+where the common stock doesn't have
+those things so the common stock can be
+valued
+um at a lower level you know ideally at
+the time of an exit the preferred stock
+converts to common stock and that's
+probably more complicated than what we
+need to talk about here but in kind of a
+perfect world The Common and the
+preferred at the time of an IPO or
+certainly at the time of an IPO by the
+time of an exit would be
+um equal in value but early on because
+of those the lack of those rights
+preferences and privileges the company
+has the ability to set a lower value on
+that common stock so uh then there's
+some tax rules that require you to go
+get a a professional valuation that
+would help you price those options but
+you know oftentimes in early stage
+startups you might have you know kind of
+an 80 or eight even 85 percent discount
+to that preferred stock price on the on
+the common
+um and then that differential will close
+as the company becomes more mature gets
+closer to a potential exit and on the
+day of an IPO you would in perfect world
+have it be no differential is what a
+evaluation an expert would tell you so
+the ability to price your options at you
+know 20 or 15 even sometimes of what
+that preferred stock value is is
+allowing you to give a real incentive to
+to your to your team and that's really
+the the kind of
+whole rationale around why you have a
+comment and a preferred construct right
+right no that's really helpful I mean
+maybe maybe if I kind of repeat back
+what I'm hearing is there's sort of two
+things that are worth understanding one
+is any company that's going you know has
+sort of these three blocks of comp of
+equity it has this preferred concept
+which went to to investors that
+effectively gave cash let's say in most
+cases back to the company it has the
+founders which has a block of stock uh
+and and that's usually this kind of
+common and then it has a bunch of of of
+options in most cases that are given
+over to the employees and so this is
+sort of a piece of this sort of pie
+chart that is the ownership of a company
+and then the second thing you said is
+that well an investor that puts in
+dollars they have some rights that the
+employees don't have and there's some
+risk that the employees don't
+necessarily get a return and that the
+investors might and so that is what
+causes the investor to pay a dollar and
+the employee to maybe have the same
+instrument that's less and it's possible
+they they don't end up
+getting the ownership percentage of what
+they think they're going to get we'll
+talk about that in a bit but I think
+that the bigger point is that there's a
+gap and the earlier the company the
+bigger that Gap usually is between the
+price that you end up having for the
+options that an employee has and then
+the price that an investor pays and that
+price is set by a third party typically
+so there's a and I think that we call
+that that 409a price that I think is you
+know constantly I'm sure all these folks
+are hearing 409a price so that's the
+price that the company the accountants
+if you will go out and price the The
+Entity and it's this sort of discount
+against what the the maybe the investors
+have paid so I know that's a little bit
+complicated but it's important for us as
+sort of grounding for today's
+conversation of you know okay going back
+to my example I'm getting this five
+thousand dollars
+uh sorry 5 000 shares and you know
+they're telling me that it you know
+every year I'll get it for four years
+you know but before we go into sort of
+like the value of that what Mimi Linda
+this is a question for you is like what
+questions do you typically want to make
+sure that the employee just sort of
+understands you know when they're
+looking at compensation if someone if I
+if I hand you this offer letter what are
+you going to tell me I need to make sure
+I ask about
+I think just one
+concept I think we should throw out
+there it's kind of a basic one but just
+to understand even what an option is if
+you're up if your offer includes a grant
+of a stock option
+because I think sometimes people look at
+it and think oh that's my stock That's
+My Equity but an option just gives you
+the right to buy that stock and that
+409a price is the price you pay so
+um obviously if you get into a company
+really early it's going to have a very
+low strike price as a company matures
+and grows that strike price goes up but
+that really changes the economics of
+your option because if you think about
+it you kind of Peg the value that you're
+coming in at when you join the company
+and you're going to get the appreciation
+over that but you don't necessarily get
+credit for the value that's created
+before you join so it's kind of
+important to understand the economics of
+how just an option works well and then
+just on that Linda can I ask a company
+for like what that price is like the the
+409a when I get that offer letter most
+of the time I don't see that price
+written down is that some is that a
+valid question it is and I think that
+most companies would eventually share
+that information
+um you know if you're being hired into
+you know a senior level position it's a
+certainly a valid question and something
+that companies would normally share
+um but again it's it's somewhat
+sensitive and not something that
+companies wanted to share kind of have
+and have broadly distributed so once you
+get down the path of negotiating offer I
+think it's it's a valid question to ask
+got it so that's one question what are
+the other kind of questions that I want
+to know so the the other thing is that
+and I think you phrased this offer in a
+really good way that it was explained to
+the candidate as something with some
+tangible kind of dollar value
+because what happens sometimes is that
+people may look at the share number
+right like I have an option for a
+thousand shares or an option for a
+million shares and it's real it can be a
+little bit confusing and sometimes
+misleading right because your the number
+of shares that you will be covered by
+your option is really just what's your
+slice of the pie and maybe that pie only
+has you know 10 slices and maybe it's
+already been sliced up into a million so
+it's really it's helpful to understand
+especially for an earlier Stage Company
+what percentage of the equity does that
+represent because at the end of the day
+the Thousand you know share option could
+be a greater percentage than the million
+depending on the overall cap table of
+the company are you be shocked by how
+few people actually ask that question
+right
+and the question we're asking is you
+know what's the price and then what
+percentage
+of the company is this grant
+representing and I think that the
+concern is that you know companies might
+say Hey you know that's confidential you
+know and it's you know it's a it's a
+it's 20 000 options and that's what you
+should think about how do you how do you
+push on this point because 20 000
+options might be worth a lot more than a
+million options for a different company
+going back to your example so how do I
+make sure that I know what I'm getting
+yeah so I think it it's most relevant
+for an earlier Stage Company
+right that still thinks about its cap
+table in terms of percentages you're
+talking about a public company it's
+totally irrelevant and even for a later
+stage private company that has a
+significant valuation you know I don't
+think it's helpful to know that your
+Grant is you know 0.0001 of the company
+right
+um later stage companies tend to think
+about grants more in a dollar value but
+for that earlier Stage Company I do
+think it's important and again if you're
+being hired into a senior position it's
+not a ridiculous ask to understand how
+the cap table works maybe not to see the
+cap table but to understand what
+percentage of the company your Grant
+would represent
+got it and Anthony you know going back
+to sort of the basics of options when
+why do companies just not give stock why
+do they have this this convoluted
+mechanism that Linda Manson riches you
+know there's a price and when you
+actually get to the moment of selling
+you have to factor that price in and
+it's not zero and so now it's a part of
+this calculation are they just trying to
+be mean or what causes a company to go
+from just giving stock to options in
+general
+yes so it's it's it's tax driven so if
+you were to give someone you know in
+your example 5 000 shares a year
+um the value of that you know let's say
+it's five thousand dollars
+um they'd have income of five thousand
+dollars for that year so the value of
+what you gave them would be taxable
+um and that's you know that might be
+okay when you're really really small and
+you know you're giving someone 150 150
+of income or something along that line
+or even maybe five thousand uh because
+they own the stock and they don't pay an
+exercise price they just pay taxes on
+the value that they received
+um that may work early but later on as
+the values get real high and you're
+starting to hire lots of people of at
+all sorts of levels within your
+organization
+um that's just a tax Challenge and so
+companies have you know sort of you know
+long long time ago developed this
+concept of we can give someone an option
+that they can have the benefit to buy
+that and they could do it early right
+sometimes especially for senior
+Executives you might be able to say
+one of the things I want to negotiate
+for and we can probably talk about this
+later is I want to be able to exercise
+even before I vest instead of vesting
+like at the end of that one year that
+you described and then exercising those
+shares I might be able to exercise early
+and then I own the shares assuming that
+I continue to vest and you know perform
+for that four-year period I would I
+would own those shares for forever and I
+would have started my long-term capital
+holding period
+in the U.S at least
+um early on when you when you first
+bought them and that's a benefit
+but I could also wait besides when I
+realized that there is real value in
+this business yeah yeah yeah so there's
+two things there I think one is that
+if you didn't get options and the
+company just gave you stock they're
+giving you ownership of the company
+every month but you're having to pay tax
+and it's not liquid so you actually have
+a company that theoretically the values
+on paper and yet you have a tax
+liability which is why companies move
+off of options move to options
+relatively quickly so that makes sense
+and then there's this so the second
+Point you're making which is
+for those people that are familiar with
+public company Equity typically those
+are coming in without a lot of you know
+ways to save money on Tax those are sort
+of just coming in pretty straight I
+think that if you're early into a
+company and the company asks suggests to
+you or even maybe as an executive you
+negotiate
+this early exercise I think that maybe
+the the some of the listeners have heard
+this 83b term that's been you know used
+as part of it you're suggesting that hey
+that might be wise because it really
+reduces your potential tax but then you
+have to take the possibility that you're
+buying this stock up front for you know
+and it may not be worth it so how have
+you maybe how is this how do you advise
+your clients around this sort of early
+exercise is it important is it not you
+know when when is it usually make sense
+when does it not make sense
+I'm happy to take that one
+um and just one I'll get to that in a
+sec but I just also wanted to mention
+um on why options there are some who
+will say I mean this is not like a legal
+point but it's that it's the right
+incentive right that you want people to
+be incentivized to grow the value of the
+company over their exercise price so
+there's that that's another reason why
+some companies may choose options
+because they just think it aligns
+everybody in growing value
+um on kind of early exercise and 83b
+options so
+um do you want me to kind of describe
+how it works or just yes I think that
+would be worth because I think a lot of
+people do do tend to hit this question
+around you know do I really exercise and
+and I I think that
+um maybe we caveat it by talking about
+an early stage you know that the you
+know the these sort of series a series B
+type settings but I think it's worth
+kind of spending a few minutes on it we
+see a lot of companies offer early
+exercise options meaning
+it's an option that can be exercised
+meaning you can pay your exercise price
+and convert from being an optionee to a
+stockholder
+even before that option is vested so you
+could join the company you know on
+December 1st get your option on December
+2nd and exercise the whole thing that
+day even though you've been an employee
+for one day
+um it's really a tax Play why you do
+that and typically you'd only see it
+with a low exercise price the benefit
+let me try to describe the benefit so
+when you exercise an option
+that date of exercise is going to be the
+first potential tax event for you
+um if it's an ISO it would be
+potentially AMT if it's a non-qual it
+would be income tax and the tax exposure
+is on the spread of the option so the
+amount by which the fair market value
+has exceeded the exercise price at the
+time that you exercise so in anything
+else so the later event with your option
+could be after you've exercised you hold
+chairs and you sell those shares that's
+your next tax event but that's going to
+be capital gain it's only really an
+exercise that you have that AMT or
+income tax exposure so what some people
+want to do is to exercise while the
+value is still low and there's maybe no
+spread so that you kind of lock in a
+small or no amount of income or AMT at
+the time of exercise and then future
+appreciation when you're able to sell
+those shares if you are in the future
+year will be all long-term capital gain
+that that doesn't happen automatically
+just by exercising an option though
+that's unvested if you exercise a vested
+option that's how it works but for an
+unvested option
+if you want that result you need to make
+something called an 83b election
+and the reason why you have to make an
+83b election is that if you
+if you don't then your option so 83b
+gets its catchy name from 83b of the tax
+code 83a says hey if you exercise for
+unvested shares you're not text until
+you vest that would be a pretty bad
+result so 83b says Nope text me when I
+exercise even though this is for
+invested shares
+so the 83b election allows you to kind
+of bring that income or AMT event into
+the year of exercise and then also lets
+you start that capital gains holding
+period for the shares so that when and
+if you're able to sell those shares it
+should all be you know long-term or
+short-term capital gain depending on how
+long you've held so it's really it's I
+think there's maybe some
+other you know non-legal benefits why
+people may want to exercise and be an
+actual shareholder as opposed to an
+optionee but the main reason why people
+with early exercise is because of that
+potential tax benefit
+um but like I said if you want to
+crystallize that benefit you've got to
+make the 83b election and it's
+um it's a weird
+filing it's like you have to go back in
+a time machine to like the 1970s or
+1980s because there's no electronic
+filing of an 83b election it's something
+you have to send in to the IRS within 30
+days after you exercise an early
+exercise option and there's no it's a
+hard deadline there's no for a lot of
+other things with the IRS you know you
+can pay your taxes late and just pay
+some penalties there's no like penalty
+or correction it's just you Mr 83b
+election and now you've missed out on
+that benefit of early exercising your
+options yeah and this one it's maybe it
+sounds a little bit more complicated
+than it is I mean my sense is that when
+you are a founder and you're early into
+a company and the price spread is
+relatively low and the dollars are very
+small like you're 80 you know you're
+handed like in my example maybe you're
+handed one percent of the company in
+exchange for employment you're going to
+get it over four years and the stock is
+at micro pennies and at that stage you
+know the founder as an early employee I
+think almost all you know
+recommendations is to go ahead and file
+the 83b it's not a lot of money and what
+it does is it converts these options to
+essentially stock but it's unvested so
+you don't actually own it but it starts
+the clock and you work on these weird
+you know you learn about registered mail
+at the post office for the first time
+and you know you send a little envelope
+back and it's really really helpful full
+and 83bs can actually be helpful for the
+listeners out there when they receive
+early advisory options too I mean the
+the all of these sort of options that
+exist at the beginning make sense to
+sort of do this I think as the companies
+start getting further along and you're
+thinking about exercising the dollars or
+more significant there might be a spread
+because it's not the day that you
+exercise might be your letter that's
+when I usually suggest to people talk to
+it like their actual accountant or find
+someone that can advise them and the
+risk is of course you're putting money
+into the company but it may not work out
+financially and so if you're putting and
+I know there are lots of examples of
+people who have done both mistakes one
+is they didn't exercise their founders
+stock and then they ended up paying much
+higher taxes and I think you know both
+of you probably have examples I have
+examples of this in my career uh and
+then there's examples of folks that have
+exercised and then the stock plummets
+and oh boy I'm not sure that that I'll
+end up making my money back and it's
+quite hard to recover that in terms of
+loss and so those are the two two notes
+around exercise but I think that
+probably covers the the third point I
+mean if we go back we said well let's
+make sure that you understand the price
+let's make sure you understand the
+percentage and then let's think through
+whether there's options around tax
+savings particularly around early
+exercise
+now maybe the is there anything else
+Linda that comes to mind that you'd want
+to make sure that for our kind of
+fictitious you know offer that you're
+kind of understanding when it comes to
+this option Grant I think it's just to
+make sure or validate that the rest of
+the terms are kind of both standard
+right does most companies have a
+four-year vesting period you know one
+year cliff and then monthly like is that
+the vesting like is it or does it have
+something that's more unusual
+um and then also looking at exercise
+periods like when can you exercise the
+option and if you decide to leave the
+company and you have some vested options
+how long can you exercise for so to kind
+of look at some of those other option
+terms to see if they're kind of standard
+or if there are some things you'd want
+to push back or negotiate around
+let's talk about the exit case because I
+think that's probably the one that comes
+up you know more commonly most people
+are you know in a position especially
+with the market the way it is that
+there's a chance that they'll leave the
+company and the company won't be public
+and so the challenge with options is you
+have an option to buy but you know that
+getting liquidity actually selling them
+requires someone to buy them and that
+might be through an acquisition or going
+through a public offer that those are
+the two common cases there are some edge
+cases and in that situation
+um I can imagine myself in my example
+you know I've got twenty thousand
+options and I'm two years in I decide
+this isn't not the company for me and
+then I end up leaving
+and all of a sudden
+I start realizing that those options
+aren't like stock that I can carry with
+me so can you just walk me through like
+this scenario and why what happens here
+sure so
+if you leave
+um before you vested that any unvested
+options just go away automatically and
+if you had early exercise them and you
+were a stockholder the company would
+typically repurchase it you know give
+you your money back and take those
+invested shares back
+for an option that you haven't exercised
+yet and that's bested
+um normally you're going to have a short
+shorter period of time to exercise that
+option that's called the
+post-termination exercise period and the
+most common post-termination exercise
+period is 90 days or three months so
+um it's important to understand that
+because you've had this option for a
+couple of years hopefully the value of
+the company has appreciated so you have
+this option that's in the money but now
+if you don't exercise it within three
+months it's going to go away
+um because of that um and maybe you know
+maybe there's a barrier to coming up
+with the exercise price you know if you
+joined a company at a later stage and
+you have you know a significant exercise
+price but even if you don't maybe the
+options in the money so you're going to
+have a significant tax event and nobody
+I know gets too jazzed about having dry
+taxes on exercising an option so you may
+not want to do that or you may not be
+able to you may not be able to afford
+the taxes so because of that sometimes
+people negotiate or companies offer a
+longer postermination exercise period
+um there's this gets talked about a lot
+um and there have been like some sort of
+trends that started and then stopped or
+pulled back so I I will say it's in
+based on what I see most companies still
+stick to that default of a 90-day
+post-termination exercise period
+although there are some exceptions but
+it's a good thing to ask about as you're
+going into a company about whether you
+could get longer
+um the longest you can get is up to the
+original expiration date of the option
+most options have a 10-year life so you
+can theoretically get all the way up you
+know if you stayed for two years you
+could get another eight years to
+exercise what's negotiated is usually
+something in between that you know the
+ultimate exploration and something
+sooner but it is it's an it's an
+important business point that you may
+not be thinking about as you're going
+into a company but can really
+um you know be disappointing when you
+leave if there are challenges to
+exercising and you have a short time to
+do it it yeah I mean this is the thing
+that scares me the most right now with
+offers is that you have relatively High
+you know like take these growth
+companies that have raised a fair amount
+of capital and they're still hiring
+let's say they're hiring at a product
+and the person comes to me and says look
+I've got this relatively large offer for
+half percent one percent of the company
+and the price that they have you know
+they were a billion dollar company and
+they have a pretty high 409a price
+and so you know my observation is it's
+going to take hundreds of thousands of
+dollars to exercise those options well
+it's not necessary maybe you're not
+trying to save taxes and you're thinking
+about the upside and so it's fine but
+you know two years in and they decide to
+leave then they're in this very very
+awkward stage where they can't afford to
+to take out the dollars and buy those
+those options they might have seen an
+uptick in price or perhaps even lower
+but they stand if they don't exercise 90
+days later which is a very common
+scenario they just lose everything so
+all the equity that they made they have
+nothing to show for it maybe Anthony why
+do companies
+have a short window and why is it that
+this is a tough negotiation to extend it
+I've Heard lots and lots of things about
+this so the 90-day period is what
+governs ISO so there's two types of
+options not to over complicate things
+there's isos incentive stock options and
+those are generally given to employees
+and the tax code allows you to give
+those to employees and then there's
+something called a non-qualified stock
+option or an NSO and those are just
+generically more often given to advisors
+Consultants board members who aren't
+employees and then the iso rules and
+isos have a beneficial tax that comes
+along with them
+and the iso rules provide for a 90-day
+exercise period post termination and if
+you were to extend that you actually are
+giving them an NSO or converting their
+ISO to an NSO and in foregoing the tax
+benefits that
+um that the tax code provides for isos
+so for that reason companies sort of
+default to the 90 days so they can
+preserve that
+um that benefit you know it's a little
+off topic but like a lot of us a lot of
+options never ever get that benefit
+because you have to hold and
+um your option and your
+um stock once you exercise it for two
+years I think it is Linda right so two
+years from Grant and one year from
+exercise and one year from exercise so a
+lot of times the people are selling and
+not getting that benefit anyway but
+that's why you have the 90-day period
+um you know and then the second question
+you asked around why companies sort of
+um
+you know resist changing it is is one
+they have to keep it in there if they
+want to have that it's best to keep it
+in there if you want to have the iso
+preservation
+um and then you know to the point Linda
+was making understanding that on the way
+in is key because that's probably your
+point of highest leverage if you wanted
+to say hey look
+you know if I depart I want to have you
+know something more than 90 days I want
+you know up to the 10-year period from
+the data Grant or I want you know a year
+or two and and these negotiations tend
+to be
+a year or two years is where people end
+up getting to
+um it's not un you know it's not unheard
+of but it's not super common to have the
+full 10-year period and so on the way in
+if you negotiated that that's probably a
+place that you can get
+you know some leverage on the way out
+you know who knows what your Leverage is
+who knows why you're leaving and there
+may be you know other things that you'd
+rather
+have set so you can negotiate instead of
+this at that time
+yeah and maybe Linda this is the core
+question I think my advice to people is
+that
+sometimes people get so fixated on the
+share count hey let's make sure I get as
+many share many options as possible as
+part of this offer
+but you know this node on there's a
+chance that I can't afford it and you
+know I only have 90 days and there's a
+pretty good chance that the company will
+be private even when I exit you know if
+the company is really early and the
+Market's the way it is so I almost feel
+like negotiating this is very very worth
+understanding and at least asking about
+but in your experience both being on
+both sides of the table both helping you
+know
+Executives as well as helping companies
+is it common for companies to give on
+this or to have distinct policies
+depending on certain individuals and how
+have you seen it is it at 10 50 or 90
+chance that uh that folks are going to
+be able to sort of make make a
+concession here
+it's really all over the place like
+there are other terms that I can tell
+you really easily what the market is but
+this one's a little bit all over the
+place because there are some
+kind of competing inputs so
+um
+I I agree that 90 days kind of started
+because it was an ISO Rule and then it
+just kind of became the default and it's
+what companies did for a very long time
+there's
+kind of the other side of that is there
+is some a little bit of a benefit to a
+company when someone has an ISO because
+when an employee exercises an ISO a
+company doesn't have to do any tax
+withholding
+and if you give someone if someone
+exercises an option more than 90 days
+after they leave then it's taxed as a
+non-qual and so a company has to figure
+out like how that how in the world do we
+do tax withholding for this former
+employee and remit taxes so could you do
+that on a one-off basis sure it's hard
+to do it at scale and some of the not I
+mean every company's different some of
+the clients that Anthony and I work with
+like to kind of have standardized terms
+for everybody so whether you're an
+executive or you know a new hired kind
+of Junior engineering person your terms
+are pretty much the same and so it
+doesn't feel great to some companies to
+say okay well these senior people with
+larger grants get a longer
+post-germination exercise period but
+more Junior people don't and so if we do
+it for everybody then we have this kind
+of administrative
+headache of trying to figure out how to
+do tax withholding for everybody so
+there there's some trade-offs I I mean
+I tend to agree that you have the most
+leverage as you're coming in so it's
+certainly worth asking for and there are
+lots of companies that do it
+um and some companies that make
+exceptions for executives not so much
+because they're Executives but because
+they have larger grants right so the
+burden of exercising is more significant
+but it's it's
+there's no kind of clear Trend at least
+in my mind
+yeah you know the only thing I'd add to
+that is I I do think you're going to see
+and like Linda said it's all over the
+place you're also going to see
+um varying degrees of sophistication
+among the employers on this topic right
+so you'll have people you know offerees
+or you know new employees that'll ask
+about it and the company just hasn't
+even thought about it yet you know for
+they just haven't experienced it and so
+there's that that creates a challenge
+too you know for your your new hire
+that's you know trying to get this
+because it's important to them and
+people running the business haven't just
+even really thought about it or had to
+experience it before now let's take the
+flip side let's say you know going back
+to your example Anthony where you have
+low leverage let's say that I'm I'm
+advising an executive that calls me and
+says I'm in the process of transitioning
+and
+um and I I see a 90-day window and and
+frankly I I can't shell out the kind of
+money and the tax consequences are
+substantive you know kind of the
+scenario that you both described
+you know I I stand to lose this comp and
+you know obviously it's a big portion of
+why I joined and so I'm feeling really
+really bad about it what what are the
+what are the the you know are there any
+credible options for this person you
+know to sort of retain or hold on to the
+the comp you know what could they ask
+the company and if the company says no
+what are what choices do they have you
+know I do think you see a lot of I mean
+you should ask right for sure and you
+know you oftentimes see a lot of
+CEOs or Founders that say Hey your
+contribution was good I feel bad that
+you know you you have this window
+um it's a little self-inflicted because
+you're quitting but you know I I feel
+you know I feel a little bad that you're
+in this position so I'm going to ask the
+board to extend and Boards you know tend
+to
+tend to defer to the CEO on those sorts
+of calls but there are people out there
+that think hey this is kind of the deal
+right we want these people to get us you
+know through to you know kind of a the
+next level of scale or through an exit
+or whatever it may be and so there's
+there's varying responses if the company
+were to say no
+um what you end up seeing people do is
+try to can I get a loan you know and and
+you know again you're paying if you have
+AMT or tax on this you're paying not
+just the exercise price but then the tax
+on the difference between your exercise
+price and then the current fair market
+value at the time and sometimes that
+number is even bigger than the exercise
+price and so people sometimes try to get
+loans for it
+um you see sometimes people will go and
+try to sell stock you know they'll try
+to arrange a way for selling into a
+private transaction to someone that
+wants to own the stock of this business
+um selling some of the stock they hold
+so that they can use those proceeds to
+to pay the exercise and the tax I think
+those are probably the two you know when
+the company says they can't accommodate
+you those are probably the two things we
+see most often
+and then I think it's kind of like it
+it's kind of basic but the other thing
+that I see happen sometimes is that
+people will just exercise a portion of
+the option you know it's not all or
+nothing you don't have to exercise it
+for all the shares and sometimes there
+is like you know a financial reason why
+you can't or you're not comfortable
+exercising the whole thing you'll at
+least get some you know hold some of the
+shares and hope for a great exit but
+um it's not it's not an All or Nothing
+proposition
+when we recorded this session with
+Anthony and Linda on Equity what I
+realized is that there was one big set
+of questions that I didn't answer and I
+didn't really talk about which was this
+instrument called private rsus and so in
+the last few years a bunch of companies
+have gotten to unicorn status and
+employees actually don't get options or
+they don't get restricted stock so they
+can't file 83b uh they they work
+differently than uh the options and some
+of the information that we shared here
+so I just wanted to add this information
+uh into our discussion so private rsus
+was designed to have some of the best
+aspects of stock and options so imagine
+a situation where you receive twenty
+thousand rsus and rsus you should think
+about just like stock they work like
+stock and that they vest over a same
+period of time like hey four years at 20
+000 shares will go over four years you
+get five thousand every year and maybe
+broken into monthly increments when you
+leave the company if the company's
+liquid you could actually sell them for
+whatever the price is and you don't have
+to pay for the option it's there's no
+strike price there is no foreign on a
+price in the same way and so you know
+what the company usually does is says
+well we're we believe our RSU price is
+five dollars and we think we're going to
+give you a hundred thousand dollars
+worth of of stock and that's going to
+translate five times twenty thousand
+rsus is hundred thousand dollars and you
+know the nice thing is that if the
+company went to 10 you made uh you know
+a little bit more and if the company's
+stock went down even you know unlike
+options where you're underwater because
+you have to buy them you don't have to
+buy them so you might make a little less
+but at least you make some money on your
+Equity so this is a great instrument and
+what's interesting is the IRS actually
+allows you to vest these without paying
+tax and the reason why is that you know
+technically you're not receiving the
+stock until you get to exit and so what
+that means is you know if the company
+goes public they'll go in and they'll
+say well two years ago we gave you a
+grand and two years later you the
+company went public or got sold here
+we'll give you half now on one day and
+then they take all the taxes and so it's
+not great to save taxes which is why a
+lot of companies stick with options and
+they're kind of a pain to administer so
+a lot of companies just don't want to do
+the overhead but the advantage is that
+you don't have to pay taxes as you're
+vesting so it has that aspect like
+options are great because you can keep
+getting equity in monthly vesting and
+you don't pay taxes but it's kind of
+like you own a stock and for most cases
+this is this is just a positive
+instrument so I really like receiving
+private rsus especially when the company
+had a really high stock price and they
+were really valuable now the two gotchas
+that I just want to flag for for the
+listeners out there is one gotcha is
+that let's say someone comes along and
+an investor and says they want to buy
+some of the
+um they want to invest in the company
+and they're willing to take common stock
+well the advantage of that and we've
+talked a little bit about this in the
+episode is you know that investor can
+can actually take some of the options
+that that employees have and you know
+the employee can exercise it and they
+can turn it around and sell it to this
+new investor and the investor gets
+common stock and you know the company
+employees actually have liquidity well
+before it goes public and this is great
+this is this secondary Market sale can
+be really helpful and we talked about it
+also can be helpful in securing equity
+on exit if you had to grab it before the
+options expire but can't do that with
+rsus rsus as we said don't really become
+Equity until you get to an exit event
+not just uh an event where someone's
+willing to pay so you can't really
+transfer rsus so that's one thing to
+worry about if you have a choice between
+these instruments
+um and then the second and the more
+concerning is a bit of an obscure thing
+that I came across which which is you
+know like any instrument rsus expire and
+you know that means that let's say seven
+years from the day that you start with a
+company those rsus will end up
+terminating meaning that they will if
+they don't if they're not public or
+you're not sold by that they'll zero
+them out company can't do anything about
+that
+and so this expiration applies whether
+you're a current employee or you've left
+the company so imagine a scenario where
+you've joined a company worked there for
+three years you leave well it's amazing
+is the rsus don't expire until seven so
+you've got four more years unlike
+options you don't have to negotiate a
+window but boy if that company doesn't
+go public you're in trouble you've lost
+all of that equity and you can't do much
+about it and the reason why is because
+the IRS feels like well you're not we're
+not getting when you're vesting we're
+not getting any tax and since we're not
+getting any tax there has to be some
+risk of forfeiture there has to be some
+reason and what you as employees say is
+look there's a possibility in seven
+years I don't even get my money and so
+the IRS says okay got it we'll wait
+until we collect taxes when the company
+goes public but seven years from now it
+also may maybe eliminated and that
+that's enough to sort of survive the IRS
+test so make sure if you're looking at
+private RSU use in your offer that you
+think about the fact that you know
+you're you're not going to be able to
+sell to a to another investor during the
+time until the company goes public and
+there is a chance that you could lose it
+after seven years or whatever the term
+is on expiration
+so I just want to make sure that we
+introduce that before we exit this
+episode okay back to the episode so this
+is one of the things that you both have
+taught me about is when is the right
+time to ask some of these questions is
+really important and I think that
+um you you know when the relationships
+are right at the beginning and
+everyone's excited you have just more
+opportunity to just say hey if things
+don't work out you know in my situation
+maybe it's worth looking at you know
+working through those rainy day
+scenarios and companies might be more
+more interested in doing that than if
+things are at a position where you're
+leaving and they want you to retain or
+maybe things didn't work out and they're
+in the process of of of working through
+a termination and I also think that you
+know sometimes I I've I've certainly
+when I've been in this situation and
+I've been on the other side of the table
+advising there's a lot of people that
+are like oh it's terrible that the
+company has decided you're no longer the
+right person for of the gig you should
+lawyer up and you should really go to
+town and really like fight him tooth and
+nail because you know this feels like
+this is an unfair situation on exit but
+at the same time you know when you're
+describing this sort of well maybe the
+CEO is going to be kind to you maybe the
+board is willing to do things you you
+sort of need a little bit of good
+weather and some luck because you don't
+always have leverage and so maybe this
+is a generic question Linda but when
+people come to you and they say the
+company walked me out the door today
+where they've decided I no longer can
+work there because the company is
+restructuring or maybe the CEO doesn't
+like me or whatever the situation is
+your recommendation you know what tools
+do they have and how do you suggest they
+go about that discussion it kind of
+depends on what the circumstances are
+like I most of our I feel like our
+clients are good actors right so people
+come and go and there's no kind of ill
+will
+um I think if an executive came to me
+with that scenario I'd make sure you
+know that they feel like they were
+treated overall fairly during their
+tenure at the company and then I agree
+that
+um exit negotiations tend to go
+smoothest when you work out the economic
+pieces in a really collaborative way
+um any company I think
+reacts a little bit differently when you
+have your lawyer approach them because
+then it's like whoa like what you know
+what what's happening here
+um and they of course want to then
+protect the company you know and like
+focus on
+um just you know negotiating a quick
+exit
+um I think if you you know again if you
+feel like overall you were barely
+treated at the company it's best just to
+have a conversation and lay it out like
+lay out what's important to you because
+it's not you know your circumstances may
+be different
+um you know some people don't have
+challenges with exercising you may have
+an event coming up in your life where
+you know hey I it's gonna be easy for me
+to exercise six months from now can I
+just get a little more time and just
+kind of lay it out there so that you can
+come up with hopefully a result that
+works for both you and the company
+yeah and that's been my experience too I
+know maybe because of some of the
+coaching and coaxing that the firm has
+suggested is that I've always felt like
+now looking back you know in the rear
+view mirror that I've always gotten a
+better outcome when I've been focused on
+collaboration and accepting that you
+know where you have leverage where you
+don't and and you know employment
+situations are at will and they they go
+for a few years and it's really common
+for chemistry fit to not work out and I
+think that the hard part for for people
+is to realize that you always assume
+that your employment is based on your
+competence and then you're like well no
+no I'm competent and you don't see me
+but the reality is that it also
+especially as you get more seniors based
+on fit and need and your competence may
+you may be incredibly successful at your
+next and previous prop world but you
+know it's not necessarily the time to
+fight and and that I think is is
+important piece that you know I think
+that there's stories of people that go
+to town that tend to get a lot of press
+and then the 90 percent of people that
+get better off when they when they work
+on the same side of the table I think
+that is again it's like not a legal
+thing it's kind of how do you get your
+head around this transition that you may
+not have planned
+um and it's
+it it's funny like it's often like the
+it's not you it's me but like a lot of
+times that's that's the case and I I
+think I've mentioned to you that I
+um have a sister who's a marketing
+professional and she works with
+technology companies so she moves around
+a lot right I think certain roles
+product people right tend to you know as
+companies change strategy sometimes
+people just move on and it's just
+understanding that you know it's again
+it has nothing to do with your
+competence companies just going in a
+different
+direction and you can land someplace
+else really great absolutely what I'd
+love to understand maybe in you know as
+we kind of think through the final ends
+of this this podcast is less about
+someone looking at a new offer
+more about someone who's entering the
+new year a little bit worried about
+their current offer
+you know if you're in a public company
+it's pretty obvious when you look out
+and you see the stock price and it's you
+know the Market's taking a hit this past
+year
+um you know kind of where you stand
+you know exactly how much you stand to
+earn and maybe perhaps how much you
+thought you were going to earn when you
+joined or as you've been investing
+but it's a lot harder to understand that
+in privately held companies and you can
+kind of guess that you know the Market's
+not quite as strong as it was and you
+might maybe look at a public company in
+your sector and see it's down 70 80
+percent but you know companies are
+making offers to new employees at their
+past prices employees are told that you
+know just hold it out the Market's going
+to recover
+maybe if you were to stay on the side of
+the employee you know is there risk
+maybe this is the core question is there
+a risk that I might not be able to make
+any money for my Equity if I let's say I
+joined let's take a specific scenario I
+joined and I had a good chunk of the
+company and the the price the valuation
+of the company is very high let's say it
+was multiple billions of dollars now I
+know the sector is down
+and I'm one one and a half year into my
+stock vest and I have these options
+occurring
+is there risk that I might not be able
+to get any money for this even if the
+company was to exit in a couple years
+you know how do you think about this
+drop in valuation when it comes to
+existing comp
+there is real risk that
+um in in private company scenarios that
+your common stock would be underwater
+you know we talked sort of a little bit
+at the outset that some of the outset at
+some of the rights that preferred stock
+has one of those is liquidation
+preference which means
+the investors the preferred stock gets
+some amount of money before the common
+stock get get anything
+um in you know successful outcomes
+um and you know the market we've had in
+the last handful of years
+you know it's quite common for the
+common and the preferred to get the same
+amount but in those downside scenarios
+that you describe hey we thought we were
+worth a couple billion now we're worth a
+lot less and we sell the business
+it's very possible that the preferred
+stock get their money back and there's
+not either anything or very little left
+for
+um you know for the for the common
+stockholders
+um the other piece that the risk that
+you have is even if there is money left
+for the comment you have an option that
+was priced at the two billion dollar
+valuation so it has
+you know call it a price of three
+dollars a share and the exit or the
+current valuation and then the company
+exits at this current valuation let's
+say is it a dollar fifty
+um so you have to make a decision is it
+worthwhile to exercise for three dollars
+to get
+you know about 50 the answer is no
+um and there's probably lots of examples
+where it's a little closer or you know
+you're exercising and you just don't
+know how the outcome is going to come
+but you know it's a lot lower and so you
+have kind of risk of
+the preferred stock getting you know in
+the summary would be the preferred stock
+getting either you know all of the
+proceeds or a majority or a super
+majority of the proceeds leaving very
+little for common or your common stock
+just being at an exercise price or stock
+options being in an exercise price
+that's lower than than the current or
+higher than the current valuation
+how do you find out so I'm year and a
+half in
+and I worry about potentially the
+investors taking the line share
+or I worry that the company might not be
+valued from the price that I was granted
+even though there was quite a spread at
+the time can I ask or do people respond
+like to the financial teams like openly
+discuss this with employees
+yeah you know I think I think you can
+ask I think that um
+you know I think that there's I think it
+would be a fair answer by a by the
+executive team or the CEO to say look
+you know we have because a lot of
+companies that were valued very high
+very highly over the last few years
+raised lots and lots of money and so
+they're not looking to raise money right
+now they're not looking to sell because
+valuations are down they're gonna you
+know work on product work on sales and
+customer success and and get to a place
+when they exit and hope that the
+valuation is different and so I think
+some version of that answer is probably
+what you'll receive in a lot of
+companies but I think it's a fair ask of
+you know hey where you know how do we
+feel
+you know our company is situated based
+on valuations and amounts we've raised
+and you know where we might go now
+um I think those are I think those are
+are fair questions the other piece that
+um you know that your followers should
+know is that those 409a valuations that
+you talk about
+um the way the and and like Linda said
+the snappy name of 83b is also the same
+reason you have a Snappy name of 409a
+it's the Internal Revenue code section
+but Internal Revenue code section 409a
+says that those valuations on how you
+price options
+they're valid
+um until some either something material
+happens or 12 months and so even if
+there's nothing material like no
+financing no you know huge huge customer
+thing
+um no big acquisition that you did if
+just nothing material happens you just
+kind of doing ordinary course for the
+course of that 12 months at that end of
+that 12 months you'd have to go get a
+new valuation
+um and so that is a point of like oh
+gosh you know it used to be you know
+three dollars now it's a dollar fifty
+um at which we're issuing options
+I see so you're suggesting that look if
+you wait this out and you just monitor
+the 409a price
+companies are essentially over time
+going to make that accurate and that Pro
+that process is not something the
+company determines internally it's done
+by a third party so you know this piece
+of data will help you get a sense of
+does the external and Auditors feel good
+about your price and if it turns out
+that you have a 409a price at five
+dollars and the valuation came down at
+25 cents
+then you'd be worried that you'd have to
+work a really long time before you even
+have a dollar for your options is that
+is that a fair thing do you think that
+most companies would probably go through
+uh repricing or 49a revalue repricing is
+the wrong word but a 409a res valuation
+this year
+well yeah I think most companies that
+are raised that are you know have been
+around and are issuing options will have
+to just by definition we'll get a new
+409a you know in that in that 12-month
+period
+um you know and then you you cut over to
+repricing which is a bit of a different
+topic is would companies sort of adjust
+their old options to the new price the
+underwater options to that new price
+um and I think that depends right the
+example you gave five dollars to 25
+cents I think most companies would see
+that and say geez we're going to have a
+revolt on our hands if the people at
+five dollars see their new colleagues
+getting options at 25 cents
+um whether you see a mass Exodus or a
+Revolt um so we should fix that you know
+I think if the example were hey it was
+five dollars and now the new price is
+480. you'd say we're going to get back
+above five dollars like you know
+everyone relax
+um and I think there's lots of there's
+lots of stuff in between there that's I
+think a little bit harder but we are
+seeing companies in this market
+repricing trying to give that benefit
+pass along the new benefit of the lower
+price to uh to their teams but you are
+seeing that you'll probably consider to
+continue to see it into next year
+I guess I'd I'd also add to that
+um that
+there are some tax reasons why you
+really can't continually reprice the
+same option so usually you can do it
+like once is all right and I only
+mentioned that because if you are the
+person who you know has the five dollar
+strike price and now there's a 25 cent
+you know fair market value to just like
+you can relax a little bit because the
+company probably wants to wait like if
+they think the next valuation is going
+to be 10 cents they'd prefer to reprice
+it then right rather than just repricing
+when you know they feel like they
+haven't quite hit the bottom and a lot
+of times those valuations are tied to
+what the Market's doing overall
+um wish we could know when that's going
+to turn around a little hard to predict
+but I do think companies tend to be a
+little bit
+um thoughtful in trying to wait to
+reprice until they think they you know
+have a pretty low 409a
+that makes sense and I know this was a
+detailed topic
+um but uh one I just wanted to sort of
+uh summarize where we ended up I mean
+this is one of the more complicated area
+and hopefully we just sort of you know
+maybe we scratched the surface on a lot
+of the common questions but between sort
+of understanding the price and the
+percentage of the company understanding
+these gotchas around tax and early
+exercise understanding these exit
+windows and how to think about
+potentially losing stock and what
+choices you have if you find yourself in
+that and then uh thinking through how
+the stock may have fluctuated both
+directions up and down and how that
+might impact your compensation Anthony
+mccusker Linda Galligan thank you thank
+you so much for your for your help I
+know that this is
+um not legal advice but common questions
+that I think all of our listeners may be
+hitting at some point down the road and
+so I appreciate your your uh you know
+help today and and and and Clarity on
+some of these really complicated topics
+uh you know for folks that have
+questions you know we want them to
+submit to
+um to the podcast but also uh you know
+when people come to you with specific
+challenges and there's so many specific
+scenarios what Guidance Do you have as
+to who should they talk to and how do
+they find help and should they be
+actually talking to Folks at these
+important times
+I think they should absolutely find
+advisors right you can find lawyers you
+can find us you can find other lawyers
+that do a lot of this work
+um you can find Accountants wealth
+managers are usually pretty good at it
+as well and if you're talking to an
+accountant or wealth manager and you
+need a lawyer they usually have them
+within their Network that they can can
+get to get to them but I think having
+the answers and being armed with it you
+know you were saying earlier when you go
+into these negotiations knowing you know
+having spoken to someone and know kind
+of what you want and why it's important
+Etc I think can be really helpful not
+necessarily
+using those people on as the front line
+but having them be able to give you the
+ammo that you need for what you're going
+into those discussions I think is
+helpful and we talk to people all the
+time on those sorts of topics
+well thank you again and uh we look
+forward to seeing you on a subsequent
+skip podcast yeah thanks for having us
+yep really appreciate it
