@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "axios": "^1.7.7"
+  },
+  "devDependencies": {
+    "@shadcn/ui": "^0.0.4"
+  }
+}
