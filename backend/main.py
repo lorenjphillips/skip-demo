@@ -13,18 +13,30 @@ import json
 # Load environment variables
 load_dotenv()
 
-# Check for API key
-api_key = os.getenv("OPENAI_API_KEY")
-if not api_key:
-    raise ValueError(
-        "No OpenAI API key found. Please ensure you have a .env file with OPENAI_API_KEY set or "
-        "that the environment variable is set."
-    )
-
-print("OpenAI API key loaded successfully")
-
+# Initialize FastAPI app
 app = FastAPI()
 
+# Get environment variables with defaults
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+CORS_ORIGINS = os.getenv("CORS_ORIGINS", "http://localhost:3000").split(",")
+
+# Validate environment variables
+if not OPENAI_API_KEY:
+    print("Warning: No OpenAI API key found in environment variables")
+    if os.path.exists(".env"):
+        print("Checking .env file...")
+        with open(".env") as f:
+            if "OPENAI_API_KEY" in f.read():
+                print("API key found in .env file")
+            else:
+                print("No API key found in .env file")
+    raise ValueError(
+        "No OpenAI API key found. Please ensure you have set the OPENAI_API_KEY "
+        "environment variable in Railway's dashboard."
+    )
+
+# Print debugging information
+print(f"CORS origins configured: {CORS_ORIGINS}")
 
 # Get CORS origins from environment variable
 CORS_ORIGINS = os.getenv("CORS_ORIGINS", "http://localhost:3000").split(",")
