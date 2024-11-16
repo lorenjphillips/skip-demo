@@ -13,40 +13,36 @@ import json
 # Load environment variables
 load_dotenv()
 
+# Debug environment setup
+print("Starting application...")
+print(f"Current working directory: {os.getcwd()}")
+print(f"Files in current directory: {os.listdir()}")
+print(f"Environment variables available: {list(os.environ.keys())}")
+
+
 # Initialize FastAPI app
 app = FastAPI()
 
-# Get environment variables with defaults
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-CORS_ORIGINS = os.getenv("CORS_ORIGINS", "http://localhost:3000").split(",")
-
-# Validate environment variables
-if not OPENAI_API_KEY:
-    print("Warning: No OpenAI API key found in environment variables")
-    if os.path.exists(".env"):
-        print("Checking .env file...")
-        with open(".env") as f:
-            if "OPENAI_API_KEY" in f.read():
-                print("API key found in .env file")
-            else:
-                print("No API key found in .env file")
+# Check for API key
+api_key = os.getenv("OPENAI_API_KEY")
+if not api_key:
     raise ValueError(
-        "No OpenAI API key found. Please ensure you have set the OPENAI_API_KEY "
-        "environment variable in Railway's dashboard."
+        "No OpenAI API key found. Please ensure you have a .env file with OPENAI_API_KEY set or "
+        "that the environment variable is set."
     )
 
-# Print debugging information
-print(f"CORS origins configured: {CORS_ORIGINS}")
+print("OpenAI API key loaded successfully")
 
-# Get CORS origins from environment variable
-CORS_ORIGINS = os.getenv("CORS_ORIGINS", "http://localhost:3000").split(",")
+app = FastAPI()
 
+# Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=CORS_ORIGINS,
+    allow_origins=["http://localhost:3000"],
     allow_credentials=True,
-    allow_methods=["*"],
+    allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["*"],
+    expose_headers=["*"],
 )
 
 # Initialize OpenAI client
