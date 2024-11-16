@@ -7,6 +7,7 @@ import { Input } from '@/components/ui/input';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Loader2, ExternalLink } from 'lucide-react';
 import Image from 'next/image';
+import InteractiveBackground from './InteractiveBackground';
 import {
   Dialog,
   DialogContent,
@@ -36,7 +37,6 @@ const LoadingDots = () => (
 );
 
 const VideoDialog = ({ url, title }: { url: string; title: string }) => {
-  // Extract video ID from YouTube URL
   const getYouTubeEmbedUrl = (url: string) => {
     const videoId = url.split('v=')[1]?.split('&')[0];
     return `https://www.youtube.com/embed/${videoId}`;
@@ -109,14 +109,12 @@ const PodcastQuery = () => {
       
       const data = await response.json();
       
-      // Add assistant message with response
       setMessages(prev => [...prev, {
         type: 'assistant',
         content: data.answer,
         sources: data.sources
       }]);
     } catch (error) {
-      // Add error message
       setMessages(prev => [...prev, {
         type: 'assistant',
         content: error instanceof Error ? error.message : 'Failed to fetch response'
@@ -127,80 +125,83 @@ const PodcastQuery = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 p-4 absolute inset-0">
-      <div className="max-w-4xl mx-auto flex flex-col h-[90vh]">
-        <Card className="flex-1 flex flex-col mb-4 bg-white/95 backdrop-blur-sm shadow-xl">
-          <CardHeader className="border-b flex flex-row justify-between items-center">
-            <CardTitle>The Skip Podcast Interactive Search</CardTitle>
-            <div className="relative w-12 h-12">
-              <Image
-                src="/skip-logo.png"
-                alt="Skip Logo"
-                fill
-                style={{ objectFit: 'contain' }}
-                priority
-              />
-            </div>
-          </CardHeader>
-          <CardContent className="flex-1 flex flex-col pt-4">
-            <ScrollArea className="flex-1 pr-4 mb-4">
-              <div className="space-y-4">
-                {messages.map((message, index) => (
-                  <div
-                    key={index}
-                    className={`flex ${message.type === 'user' ? 'justify-end' : 'justify-start'}`}
-                  >
-                    <div
-                      className={`max-w-[80%] rounded-lg p-4 shadow-md transition-all duration-300 ease-in-out ${
-                        message.type === 'user'
-                          ? 'bg-purple-600 text-white ml-4'
-                          : 'bg-slate-100 mr-4'
-                      }`}
-                    >
-                      <p className="whitespace-pre-wrap">{message.content}</p>
-                      {message.sources && message.sources.length > 0 && (
-                        <div className="mt-2 text-sm opacity-80">
-                          <p className="font-medium">Sources:</p>
-                          <ul className="list-disc pl-4">
-                            {message.sources.map((source, idx) => (
-                              <li key={idx}>
-                                <VideoDialog url={source.url} title={source.title} />
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-                      )}
-                    </div>
-                  </div>
-                ))}
-                {loading && (
-                  <div className="flex justify-start">
-                    <LoadingDots />
-                  </div>
-                )}
-                <div ref={messagesEndRef} />
-              </div>
-            </ScrollArea>
-            <div className="border-t pt-4">
-              <form onSubmit={handleSubmit} className="flex gap-2">
-                <Input
-                  value={question}
-                  onChange={(e) => setQuestion(e.target.value)}
-                  placeholder="Ask about the podcast..."
-                  className="flex-1"
-                  disabled={loading}
+    <div className="min-h-screen relative">
+      <InteractiveBackground />
+      <div className="relative z-10 p-4">
+        <div className="max-w-4xl mx-auto flex flex-col h-[90vh]">
+          <Card className="flex-1 flex flex-col mb-4 bg-white/95 backdrop-blur-sm shadow-xl">
+            <CardHeader className="border-b flex flex-row justify-between items-center">
+              <CardTitle>The Skip Podcast Interactive Search</CardTitle>
+              <div className="relative w-12 h-12">
+                <Image
+                  src="/skip-logo.png"
+                  alt="Skip Logo"
+                  fill
+                  style={{ objectFit: 'contain' }}
+                  priority
                 />
-                <Button 
-                  type="submit" 
-                  disabled={loading}
-                  className="bg-purple-600 hover:bg-purple-700"
-                >
-                  {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : 'Ask'}
-                </Button>
-              </form>
-            </div>
-          </CardContent>
-        </Card>
+              </div>
+            </CardHeader>
+            <CardContent className="flex-1 flex flex-col pt-4">
+              <ScrollArea className="flex-1 pr-4 mb-4">
+                <div className="space-y-4">
+                  {messages.map((message, index) => (
+                    <div
+                      key={index}
+                      className={`flex ${message.type === 'user' ? 'justify-end' : 'justify-start'}`}
+                    >
+                      <div
+                        className={`max-w-[80%] rounded-lg p-4 shadow-md transition-all duration-300 ease-in-out ${
+                          message.type === 'user'
+                            ? 'bg-purple-600 text-white ml-4'
+                            : 'bg-slate-100 mr-4'
+                        }`}
+                      >
+                        <p className="whitespace-pre-wrap">{message.content}</p>
+                        {message.sources && message.sources.length > 0 && (
+                          <div className="mt-2 text-sm opacity-80">
+                            <p className="font-medium">Sources:</p>
+                            <ul className="list-disc pl-4">
+                              {message.sources.map((source, idx) => (
+                                <li key={idx}>
+                                  <VideoDialog url={source.url} title={source.title} />
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  ))}
+                  {loading && (
+                    <div className="flex justify-start">
+                      <LoadingDots />
+                    </div>
+                  )}
+                  <div ref={messagesEndRef} />
+                </div>
+              </ScrollArea>
+              <div className="border-t pt-4">
+                <form onSubmit={handleSubmit} className="flex gap-2">
+                  <Input
+                    value={question}
+                    onChange={(e) => setQuestion(e.target.value)}
+                    placeholder="Ask about the podcast..."
+                    className="flex-1"
+                    disabled={loading}
+                  />
+                  <Button 
+                    type="submit" 
+                    disabled={loading}
+                    className="bg-purple-600 hover:bg-purple-700"
+                  >
+                    {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : 'Ask'}
+                  </Button>
+                </form>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
       </div>
     </div>
   );
