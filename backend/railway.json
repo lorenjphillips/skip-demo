@@ -1,17 +1,20 @@
 {
-    "mounts": [
+    "build": {
+      "builder": "DOCKERFILE",
+      "dockerfilePath": "Dockerfile"
+    },
+    "deploy": {
+      "startCommand": "python main.py",
+      "healthcheckPath": "/health",
+      "healthcheckTimeout": 100,
+      "restartPolicyType": "ON_FAILURE",
+      "restartPolicyMaxRetries": 10
+    },
+    "volumes": [
       {
-        "type": "volume",
-        "source": "chroma_data",
-        "destination": "/app/chroma_db",
-        "mode": "rw"
+        "path": "/data/chroma_db",
+        "name": "chromadb-volume",
+        "mount": "volume"
       }
-    ],
-    "environments": {
-      "production": {
-        "env": {
-          "RAILWAY_ENVIRONMENT": "production"
-        }
-      }
-    }
+    ]
   }
