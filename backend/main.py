@@ -133,12 +133,24 @@ class Query(BaseModel):
 
 @app.get("/health")
 async def health_check():
+    """Basic health check that just confirms the service is running"""
+    return {"status": "healthy"}
+
+@app.get("/health/detailed")
+async def detailed_health_check():
+    """Detailed health check including ChromaDB connectivity"""
     try:
-        # Add any critical checks here (e.g., ChromaDB connection)
         collection = chroma_client.get_collection("podcast_transcripts")
-        return {"status": "healthy", "collection_count": collection.count()}
+        return {
+            "status": "healthy",
+            "chroma_db": "connected",
+            "collection_count": collection.count()
+        }
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        raise HTTPException(
+            status_code=500,
+            detail=f"ChromaDB health check failed: {str(e)}"
+        )
 
 @app.post("/query")
 async def query(query: Query):
