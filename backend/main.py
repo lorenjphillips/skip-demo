@@ -59,98 +59,100 @@ app.add_middleware(
 client = OpenAI(api_key=api_key)
 print("\n=== OpenAI Client Initialized ===")
 
+import os
+import chromadb
+from sentence_transformers import SentenceTransformer
+from fastapi import FastAPI, HTTPException
 
-# Initialize ChromaDB
+app = FastAPI()
+
+# Constants
 COLLECTION_NAME = "podcast_transcripts"
-
-# Determine if we're in production (Railway) or development
 IS_PRODUCTION = os.getenv("RAILWAY_ENVIRONMENT") == "production"
-
-# Set the appropriate DB path based on environment
 DB_DIR = "/data/chroma_db" if IS_PRODUCTION else "./chroma_db"
-# if IS_PRODUCTION:
-#     DB_DIR = "/data/chroma_db" if IS_PRODUCTION else "./chroma_db"
-# else:
-#     DB_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "chroma_db")
 
-print(f"\n=== ChromaDB Setup ===")
-print(f"Environment: {'Production' if IS_PRODUCTION else 'Development'}")
-print(f"Database directory: {DB_DIR}")
+# Global variables to track initialization status
+chroma_client = None
+collection = None
+embedding_model = None
+initialization_error = None
 
-# Create the directory if it doesn't exist
-os.makedirs(DB_DIR, exist_ok=True)
-print(f"Database directory exists: {os.path.exists(DB_DIR)}")
-
-# Initialize the client with settings optimized for production
-chroma_client = chromadb.PersistentClient(
-    path=DB_DIR,
-    settings=chromadb.Settings(
-        anonymized_telemetry=False,
-        allow_reset=False,
-        is_persistent=True
-    )
-)
-
-# Add debug logging
-try:
-    collection = chroma_client.get_or_create_collection(name=COLLECTION_NAME)
-    print(f"Collection '{COLLECTION_NAME}' accessed successfully")
-    print(f"Number of documents in collection: {collection.count()}")
-except Exception as e:
-    print(f"Error accessing collection: {str(e)}")
-
-print("ChromaDB client initialized")
-
-def get_or_create_collection():
+async def initialize_dependencies():
+    global chroma_client, collection, embedding_model, initialization_error
+    
     try:
-        collections = chroma_client.list_collections()
-        print(f"Existing collections: {[c.name for c in collections]}")
+        print(f"\n=== ChromaDB Setup ===")
+        print(f"Environment: {'Production' if IS_PRODUCTION else 'Development'}")
+        print(f"Database directory: {DB_DIR}")
         
-        for collection in collections:
-            if collection.name == COLLECTION_NAME:
-                print(f"Found existing collection: {COLLECTION_NAME}")
-                # Get collection size
-                results = collection.get()
-                print(f"Collection size: {len(results['ids']) if results else 0} documents")
-                return collection
+        # Ensure directory exists
+        os.makedirs(DB_DIR, exist_ok=True)
+        print(f"Database directory exists: {os.path.exists(DB_DIR)}")
         
-        print(f"Creating new collection: {COLLECTION_NAME}")
-        return chroma_client.create_collection(name=COLLECTION_NAME)
+        # Initialize ChromaDB client
+        chroma_client = chromadb.PersistentClient(
+            path=DB_DIR,
+            settings=chromadb.Settings(
+                anonymized_telemetry=False,
+                allow_reset=False,
+                is_persistent=True
+            )
+        )
+        
+        # Initialize collection
+        collection = chroma_client.get_or_create_collection(name=COLLECTION_NAME)
+        print(f"Collection '{COLLECTION_NAME}' initialized with {collection.count()} documents")
+        
+        # Initialize embedding model
+        embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
+        print("\n=== Embedding Model Initialized ===")
+        
+        return True
     except Exception as e:
-        print(f"Error in get_or_create_collection: {str(e)}")
-        raise e
+        initialization_error = str(e)
+        print(f"Initialization error: {initialization_error}")
+        return False
 
-# Initialize the collection
-collection = get_or_create_collection()
-print(f"Collection ready: {collection.name}")
-
-# Initialize the embedding model
-embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
-print("\n=== Embedding Model Initialized ===")
-
-class Query(BaseModel):
-    question: str
+@app.lifespan("startup")
+async def startup_event():
+    await initialize_dependencies()
 
 @app.get("/health")
 async def health_check():
     """Basic health check that just confirms the service is running"""
     return {"status": "healthy"}
 
-@app.get("/health/detailed")
-async def detailed_health_check():
-    """Detailed health check including ChromaDB connectivity"""
+@app.get("/health/ready")
+async def readiness_check():
+    """Detailed health check including ChromaDB initialization status"""
+    if initialization_error:
+        raise HTTPException(
+            status_code=503,
+            detail=f"Service initialization failed: {initialization_error}"
+        )
+    
+    if not chroma_client or not collection or not embedding_model:
+        raise HTTPException(
+            status_code=503,
+            detail="Service dependencies not fully initialized"
+        )
+    
     try:
-        collection = chroma_client.get_collection("podcast_transcripts")
+        # Quick connection test
+        collection.count()
         return {
             "status": "healthy",
-            "chroma_db": "connected",
-            "collection_count": collection.count()
+            "chromadb_initialized": True,
+            "embedding_model_loaded": True
         }
     except Exception as e:
         raise HTTPException(
-            status_code=500,
+            status_code=503,
             detail=f"ChromaDB health check failed: {str(e)}"
         )
+
+class Query(BaseModel):
+    question: str
 
 @app.post("/query")
 async def query(query: Query):
