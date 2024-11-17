@@ -68,9 +68,9 @@ IS_PRODUCTION = os.getenv("RAILWAY_ENVIRONMENT") == "production"
 
 # Set the appropriate DB path based on environment
 if IS_PRODUCTION:
-    DB_DIR = "/app/chroma_db"  # Railway volume mount point
-else:
-    DB_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "chroma_db")
+    DB_DIR = "/data/chroma_db" if IS_PRODUCTION else "./chroma_db"
+# else:
+#     DB_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "chroma_db")
 
 print(f"\n=== ChromaDB Setup ===")
 print(f"Environment: {'Production' if IS_PRODUCTION else 'Development'}")
@@ -129,6 +129,15 @@ print("\n=== Embedding Model Initialized ===")
 
 class Query(BaseModel):
     question: str
+
+@app.get("/health")
+async def health_check():
+    try:
+        # Add any critical checks here (e.g., ChromaDB connection)
+        collection = chroma_client.get_collection("podcast_transcripts")
+        return {"status": "healthy", "collection_count": collection.count()}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
 @app.post("/query")
 async def query(query: Query):
