@@ -16,3 +16,8 @@ frontend/.env*
 # OS
 .DS_Store
 *.log
+
+!data/
+!data/transcripts/
+!data/transcripts/*.txt
+!data/metadata.json
