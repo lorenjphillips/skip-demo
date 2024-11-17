@@ -41,15 +41,16 @@ CORS_ORIGINS = [
     "http://localhost:3000",
     "https://skip-demo-47sqo5zkn-lorenphillips-protonmailcs-projects.vercel.app",
     "https://theskipai.com",
-    "https://*.vercel.app",  # Allow all Vercel preview deployments
-    "*"  # Temporarily allow all origins for debugging
+    "https://www.theskipai.com",  # Added www subdomain
+    "https://*.vercel.app",
+    "*"
 ]
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=CORS_ORIGINS,
     allow_credentials=True,
-    allow_methods=["*"],  # Changed from specific methods to all
+    allow_methods=["*"],
     allow_headers=["*"],
     expose_headers=["*"]
 )
@@ -179,6 +180,32 @@ async def query(query: Query):
 @app.get("/test")
 async def test():
     return {"status": "OK", "message": "API is working"}
+
+@app.get("/db-status")
+async def get_db_status():
+    try:
+        # Get collection info
+        results = collection.get()
+        
+        # Get collection peek
+        peek = collection.peek()
+        
+        return {
+            "status": "OK",
+            "collection_name": collection.name,
+            "document_count": len(results['ids']) if results else 0,
+            "has_documents": bool(results and results['ids']),
+            "sample_documents": peek['documents'] if peek else [],
+            "sample_metadata": peek['metadatas'] if peek else [],
+            "db_directory": DB_DIR,
+            "directory_contents": os.listdir(DB_DIR) if os.path.exists(DB_DIR) else []
+        }
+    except Exception as e:
+        return {
+            "status": "ERROR",
+            "error": str(e),
+            "traceback": traceback.format_exc()
+        }
 
 if __name__ == "__main__":
     import uvicorn
