@@ -207,6 +207,51 @@ async def get_db_status():
             "traceback": traceback.format_exc()
         }
 
+@app.get("/db-check")
+async def check_database():
+    try:
+        # Get collection info
+        results = collection.get()
+        
+        return {
+            "status": "success",
+            "total_documents": len(results['ids']) if results['ids'] else 0,
+            "sample_metadata": results['metadatas'][:2] if results['metadatas'] else [],
+            "sample_text": results['documents'][:1] if results['documents'] else [],
+            "total_ids": len(results['ids']) if results['ids'] else 0
+        }
+    except Exception as e:
+        return {
+            "status": "error",
+            "error": str(e),
+            "traceback": traceback.format_exc()
+        }
+
+@app.post("/test-query")
+async def test_query(query: Query):
+    try:
+        # Query the collection
+        results = collection.query(
+            query_texts=[query.question],
+            n_results=2
+        )
+        
+        return {
+            "status": "success",
+            "query": query.question,
+            "results": {
+                "documents": results['documents'],
+                "metadatas": results['metadatas'],
+                "distances": results['distances']
+            }
+        }
+    except Exception as e:
+        return {
+            "status": "error",
+            "error": str(e),
+            "traceback": traceback.format_exc()
+        }
+
 if __name__ == "__main__":
     import uvicorn
     print("\n=== Starting Server ===")
