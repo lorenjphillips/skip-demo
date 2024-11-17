@@ -4,7 +4,7 @@ venv/
 __pycache__/
 *.pyc
 
-# Database
+# Database (temporary files that get recreated)
 backend/chroma_db/
 
 # Node
@@ -16,7 +16,3 @@ frontend/.env*
 # OS
 .DS_Store
 *.log
-
-# Explicitly include data files
-backend/data/transcripts/*.txt
-backend/data/metadata.json
