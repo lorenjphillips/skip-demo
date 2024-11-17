@@ -251,6 +251,32 @@ async def test_query(query: Query):
             "error": str(e),
             "traceback": traceback.format_exc()
         }
+    
+@app.get("/debug")
+async def debug_database():
+    try:
+        # Get collection info
+        collection_count = len(chroma_client.list_collections())
+        collection_info = collection.get()
+        
+        return {
+            "collections_count": collection_count,
+            "collection_name": collection.name,
+            "document_count": len(collection_info['ids']) if collection_info else 0,
+            "has_documents": bool(collection_info and collection_info['ids']),
+            "first_few_ids": collection_info['ids'][:5] if collection_info and collection_info['ids'] else [],
+            "sample_metadata": collection_info['metadatas'][:2] if collection_info and collection_info['metadatas'] else [],
+            "directory_info": {
+                "current_dir": os.getcwd(),
+                "chroma_dir_exists": os.path.exists("./chroma_db"),
+                "chroma_contents": os.listdir("./chroma_db") if os.path.exists("./chroma_db") else []
+            }
+        }
+    except Exception as e:
+        return {
+            "error": str(e),
+            "traceback": traceback.format_exc()
+        }
 
 if __name__ == "__main__":
     import uvicorn
