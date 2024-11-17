@@ -59,18 +59,45 @@ app.add_middleware(
 client = OpenAI(api_key=api_key)
 print("\n=== OpenAI Client Initialized ===")
 
+
 # Initialize ChromaDB
 COLLECTION_NAME = "podcast_transcripts"
-DB_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "chroma_db")
+
+# Determine if we're in production (Railway) or development
+IS_PRODUCTION = os.getenv("RAILWAY_ENVIRONMENT") == "production"
+
+# Set the appropriate DB path based on environment
+if IS_PRODUCTION:
+    DB_DIR = "/app/chroma_db"  # Railway volume mount point
+else:
+    DB_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "chroma_db")
+
 print(f"\n=== ChromaDB Setup ===")
+print(f"Environment: {'Production' if IS_PRODUCTION else 'Development'}")
 print(f"Database directory: {DB_DIR}")
 
 # Create the directory if it doesn't exist
 os.makedirs(DB_DIR, exist_ok=True)
 print(f"Database directory exists: {os.path.exists(DB_DIR)}")
 
-# Initialize the client
-chroma_client = chromadb.PersistentClient(path=DB_DIR)
+# Initialize the client with settings optimized for production
+chroma_client = chromadb.PersistentClient(
+    path=DB_DIR,
+    settings=chromadb.Settings(
+        anonymized_telemetry=False,
+        allow_reset=False,
+        is_persistent=True
+    )
+)
+
+# Add debug logging
+try:
+    collection = chroma_client.get_or_create_collection(name=COLLECTION_NAME)
+    print(f"Collection '{COLLECTION_NAME}' accessed successfully")
+    print(f"Number of documents in collection: {collection.count()}")
+except Exception as e:
+    print(f"Error accessing collection: {str(e)}")
+
 print("ChromaDB client initialized")
 
 def get_or_create_collection():

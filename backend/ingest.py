@@ -7,17 +7,53 @@ from dotenv import load_dotenv
 import sys
 import traceback
 
-# All your class definitions and functions here
 class PodcastIngestion:
-    # Your existing PodcastIngestion class code...
-    pass
-
-class PodcastIngestion:
-    def __init__(self, db_path: str = "./chroma_db"):
+    def __init__(self, db_path: str = None):
         """Initialize the ingestion system with ChromaDB and the embedding model."""
-        self.chroma_client = chromadb.PersistentClient(path=db_path)
+        # Determine if we're in production (Railway) or development
+        self.is_production = os.getenv("RAILWAY_ENVIRONMENT") == "production"
+        
+        # Set the appropriate DB path based on environment
+        if db_path:
+            self.db_path = db_path
+        else:
+            self.db_path = "/app/chroma_db" if self.is_production else "./chroma_db"
+        
+        print(f"\n=== ChromaDB Setup ===")
+        print(f"Environment: {'Production' if self.is_production else 'Development'}")
+        print(f"Database directory: {self.db_path}")
+        
+        # Create the directory if it doesn't exist
+        os.makedirs(self.db_path, exist_ok=True)
+        print(f"Database directory exists: {os.path.exists(self.db_path)}")
+        
+        # Initialize ChromaDB with production-optimized settings
+        self.chroma_client = chromadb.PersistentClient(
+            path=self.db_path,
+            settings=chromadb.Settings(
+                anonymized_telemetry=False,
+                allow_reset=False,
+                is_persistent=True
+            )
+        )
+        
+        print("ChromaDB client initialized")
         self.collection = self.get_or_create_collection()
         self.embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
+        
+        # Verify collection after initialization
+        self.verify_collection()
+    
+    def verify_collection(self):
+        """Verify the collection exists and print its contents."""
+        try:
+            count = self.collection.count()
+            print(f"Collection 'podcast_transcripts' contains {count} documents")
+            if count > 0:
+                peek = self.collection.peek()
+                print(f"First few documents available: {len(peek['ids'])} items")
+        except Exception as e:
+            print(f"Error verifying collection: {str(e)}")
     
     def get_or_create_collection(self):
         """Get existing collection or create a new one."""
@@ -28,7 +64,7 @@ class PodcastIngestion:
         except:
             print("Creating new collection")
             return self.chroma_client.create_collection("podcast_transcripts")
-
+        
     def list_existing_episodes(self) -> set:
         """Get a set of episode IDs already in the database."""
         try:
@@ -141,12 +177,14 @@ def process_all_episodes(
     with open(metadata_path, 'r') as f:
         metadata = json.load(f)
     
+    processed_count = 0
+    total_chunks = 0
+    
     # Process each transcript file
     for filename in os.listdir(transcripts_dir):
         if filename.endswith('.txt'):
-            episode_id = filename.split('.')[0]  # episode_001 -> episode_001
+            episode_id = filename.split('.')[0]
             
-            # Skip if not in specific episodes list
             if specific_episodes and episode_id not in specific_episodes:
                 continue
             
@@ -169,12 +207,19 @@ def process_all_episodes(
                 replace_existing=replace_existing
             )
             
+            processed_count += 1
+            total_chunks += len(ingestion.chunk_transcript(transcript))
             print(f"Completed processing {episode_id}")
+    
+    # Final verification
+    print("\n=== Processing Summary ===")
+    print(f"Processed {processed_count} episodes")
+    print(f"Total chunks created: {total_chunks}")
+    final_count = ingestion.collection.count()
+    print(f"Final document count in collection: {final_count}")
 
 # Main execution
 if __name__ == "__main__":
-    import os
-    
     # Debug: Print current directory and contents
     print(f"Current working directory: {os.getcwd()}")
     print(f"Directory contents: {os.listdir()}")
@@ -201,6 +246,5 @@ if __name__ == "__main__":
         print("\nProcessing completed successfully")
     except Exception as e:
         print(f"Error during processing: {str(e)}")
-        import traceback
-        print(f"Full traceback: {traceback.format_exc()}")
-        exit(1)
+        traceback.print_exc()
+        sys.exit(1)

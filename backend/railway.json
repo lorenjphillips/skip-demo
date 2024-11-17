@@ -1,0 +1,17 @@
+{
+    "mounts": [
+      {
+        "type": "volume",
+        "source": "chroma_data",
+        "destination": "/app/chroma_db",
+        "mode": "rw"
+      }
+    ],
+    "environments": {
+      "production": {
+        "env": {
+          "RAILWAY_ENVIRONMENT": "production"
+        }
+      }
+    }
+  }
