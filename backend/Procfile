@@ -1,2 +1,2 @@
-release: python ingest.py --replace --yes
+release: python ingest.py
 web: uvicorn main:app --host 0.0.0.0 --port $PORT
