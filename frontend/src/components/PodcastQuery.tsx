@@ -7,6 +7,7 @@ import { Input } from '@/components/ui/input';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Loader2, ExternalLink, Copy, Check, Trash2 } from 'lucide-react';
 import Image from 'next/image';
+import InteractiveBackground from './InteractiveBackground';
 import {
   Dialog,
   DialogContent,
@@ -211,7 +212,9 @@ const PodcastQuery = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 p-4 absolute inset-0">
+    <div className="min-h-screen relative">
+      <InteractiveBackground />
+    <div className="relative z-10 p-4"></div>
       <div className="max-w-4xl mx-auto flex flex-col h-[90vh]">
         <Card className="flex-1 flex flex-col mb-4 bg-white/95 backdrop-blur-sm shadow-xl">
           <CardHeader className="border-b flex flex-row justify-between items-center">
