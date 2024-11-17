@@ -16,12 +16,14 @@ ENV PATH="/opt/venv/bin:$PATH"
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 
-# Copy application code
-COPY . .
-
 # Create data directory for ChromaDB
 RUN mkdir -p /data/chroma_db
 
-# Copy and run startup script
-COPY startup.py .
-CMD python startup.py && python main.py
+# Copy application code
+COPY . .
+
+# Expose the port
+EXPOSE 8000
+
+# Start the application
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]

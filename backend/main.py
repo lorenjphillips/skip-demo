@@ -67,8 +67,9 @@ COLLECTION_NAME = "podcast_transcripts"
 IS_PRODUCTION = os.getenv("RAILWAY_ENVIRONMENT") == "production"
 
 # Set the appropriate DB path based on environment
-if IS_PRODUCTION:
-    DB_DIR = "/data/chroma_db" if IS_PRODUCTION else "./chroma_db"
+DB_DIR = "/data/chroma_db" if IS_PRODUCTION else "./chroma_db"
+# if IS_PRODUCTION:
+#     DB_DIR = "/data/chroma_db" if IS_PRODUCTION else "./chroma_db"
 # else:
 #     DB_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "chroma_db")
 
