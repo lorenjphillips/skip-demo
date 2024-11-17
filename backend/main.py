@@ -12,6 +12,7 @@ from dotenv import load_dotenv
 from openai import OpenAI
 import json
 import traceback
+from contextlib import asynccontextmanager
 
 # Load environment variables
 load_dotenv()
@@ -113,9 +114,14 @@ async def initialize_dependencies():
         print(f"Initialization error: {initialization_error}")
         return False
 
-@app.lifespan("startup")
-async def startup_event():
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Startup
     await initialize_dependencies()
+    yield
+    # Shutdown logic would go here if needed
+
+app = FastAPI(lifespan=lifespan)
 
 @app.get("/health")
 async def health_check():
