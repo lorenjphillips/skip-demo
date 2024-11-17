@@ -38,7 +38,11 @@ print("OpenAI API key loaded successfully")
 print(f"API key length: {len(api_key)}")
 
 # Add CORS middleware
-CORS_ORIGINS = ["http://localhost:3000"]
+CORS_ORIGINS = [
+    "http://localhost:3000",
+    "https://skip-demo-47sqo5zkn-lorenphillips-protonmailcs-projects.vercel.app",
+    "https://theskipai.com"
+]
 print("\n=== CORS Setup ===")
 print(f"Configured CORS origins: {CORS_ORIGINS}")
 
