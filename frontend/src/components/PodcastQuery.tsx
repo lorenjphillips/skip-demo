@@ -79,13 +79,17 @@ const VideoDialog = ({ url, title }: { url: string; title: string }) => {
   );
 };
 
-const MessageActions = ({ message, onCopy }: { message: Message; onCopy: () => void }) => {
+// MessageActions component
+const MessageActions = ({ content, onCopy }: { content: string; onCopy: () => void }) => {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    onCopy();
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
+    // Use the content prop here
+    navigator.clipboard.writeText(content).then(() => {
+      onCopy();
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    });
   };
 
   return (
@@ -166,14 +170,15 @@ const PodcastQuery = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!question.trim()) return;
-
+  
     const userQuestion = question;
     setQuestion('');
     setLoading(true);
-
+  
     setMessages(prev => [...prev, { type: 'user', content: userQuestion }]);
     
     try {
+      console.log('Making request to:', API_URL);
       const response = await fetch(`${API_URL}/query`, {
         method: 'POST',
         headers: {
@@ -188,6 +193,7 @@ const PodcastQuery = () => {
       }
       
       const data = await response.json();
+      console.log('Response:', data);
       
       setMessages(prev => [...prev, {
         type: 'assistant',
@@ -202,15 +208,6 @@ const PodcastQuery = () => {
     } finally {
       setLoading(false);
     }
-    console.log('Making request to:', API_URL);
-    const response = await fetch(`${API_URL}/query`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ question: userQuestion }),
-    });
-    console.log('Response:', await response.clone().json()); 
   };
 
   return (
@@ -257,40 +254,40 @@ const PodcastQuery = () => {
           <CardContent className="flex-1 flex flex-col pt-4">
             <ScrollArea className="flex-1 pr-4 mb-4">
               <div className="space-y-4">
-                {messages.map((message, index) => (
+              {messages.map((message, index) => (
+                <div
+                  key={index}
+                  className={`flex ${message.type === 'user' ? 'justify-end' : 'justify-start'}`}
+                >
                   <div
-                    key={index}
-                    className={`flex ${message.type === 'user' ? 'justify-end' : 'justify-start'}`}
+                    className={`relative group max-w-[80%] rounded-lg p-4 shadow-md transition-all duration-300 ease-in-out ${
+                      message.type === 'user'
+                        ? 'bg-purple-600 text-white ml-4'
+                        : 'bg-slate-100 mr-4'
+                    }`}
                   >
-                    <div
-                      className={`relative group max-w-[80%] rounded-lg p-4 shadow-md transition-all duration-300 ease-in-out ${
-                        message.type === 'user'
-                          ? 'bg-purple-600 text-white ml-4'
-                          : 'bg-slate-100 mr-4'
-                      }`}
-                    >
-                      {isClient && (
-                        <MessageActions 
-                          message={message} 
-                          onCopy={() => handleCopyMessage(message.content)}
-                        />
-                      )}
-                      <p className="whitespace-pre-wrap">{message.content}</p>
-                      {message.sources && message.sources.length > 0 && (
-                        <div className="mt-2 text-sm opacity-80">
-                          <p className="font-medium">Sources:</p>
-                          <ul className="list-disc pl-4">
-                            {message.sources.map((source, idx) => (
-                              <li key={idx}>
-                                <VideoDialog url={source.url} title={source.title} />
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-                      )}
-                    </div>
+                    {isClient && (
+                      <MessageActions 
+                        content={message.content}
+                        onCopy={() => handleCopyMessage(message.content)}
+                      />
+                    )}
+                    <p className="whitespace-pre-wrap">{message.content}</p>
+                    {message.sources && message.sources.length > 0 && (
+                      <div className="mt-2 text-sm opacity-80">
+                        <p className="font-medium">Sources:</p>
+                        <ul className="list-disc pl-4">
+                          {message.sources.map((source, idx) => (
+                            <li key={idx}>
+                              <VideoDialog url={source.url} title={source.title} />
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
                   </div>
-                ))}
+                </div>
+              ))}
                 {loading && (
                   <div className="flex justify-start">
                     <LoadingDots />

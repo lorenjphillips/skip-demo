@@ -1,6 +1,14 @@
 'use client';
 
-import React, { useState, useCallback, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
+
+interface BackgroundElement {
+  id: number;
+  x: string;
+  y: string;
+  size: number;
+  animationDelay: string;
+}
 
 const InteractiveBackground = () => {
   const [elements, setElements] = useState<BackgroundElement[]>([]);
