@@ -51,6 +51,7 @@ class PodcastIngestion:
                        transcript: str, 
                        title: str, 
                        description: str = "",
+                       url: str = "",
                        replace_existing: bool = False) -> None:
         """Process a single episode and add it to the database."""
         
