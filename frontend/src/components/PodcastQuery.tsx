@@ -20,7 +20,6 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-// import { Toast } from "@/components/ui/toast";
 
 interface Source {
   episode_id: string;
@@ -34,7 +33,11 @@ interface Message {
   sources?: Source[];
 }
 
+
 const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+
+
+
 
 const LoadingDots = () => (
   <div className="flex space-x-2 p-4 bg-slate-100 rounded-lg max-w-[80%]">
@@ -114,21 +117,26 @@ const MessageActions = ({ message, onCopy }: { message: Message; onCopy: () => v
 
 const PodcastQuery = () => {
   const [question, setQuestion] = useState('');
-  const [messages, setMessages] = useState<Message[]>(() => {
-    if (typeof window !== 'undefined') {
-      const saved = localStorage.getItem('chatMessages');
-      return saved ? JSON.parse(saved) : [];
-    }
-    return [];
-  });
+  const [messages, setMessages] = useState<Message[]>([]);
   const [loading, setLoading] = useState(false);
+  const [isClient, setIsClient] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
+  // Handle hydration safely
   useEffect(() => {
-    if (messages.length > 0) {
+    setIsClient(true);
+    const savedMessages = localStorage.getItem('chatMessages');
+    if (savedMessages) {
+      setMessages(JSON.parse(savedMessages));
+    }
+  }, []);
+
+  // Save messages to localStorage
+  useEffect(() => {
+    if (isClient && messages.length > 0) {
       localStorage.setItem('chatMessages', JSON.stringify(messages));
     }
-  }, [messages]);
+  }, [messages, isClient]);
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -138,22 +146,22 @@ const PodcastQuery = () => {
     scrollToBottom();
   }, [messages, loading]);
 
-  // const handleCopyMessage = (content: string) => {
-  //   navigator.clipboard.writeText(content);
-  //   Toast({
-  //     description: "Message copied to clipboard",
-  //     duration: 2000,
-  //   });
-  // };
+  const handleCopyMessage = async (content: string) => {
+    try {
+      await navigator.clipboard.writeText(content);
+      // Add toast notification here when you implement it
+    } catch (err) {
+      console.error('Failed to copy text:', err);
+    }
+  };
 
-  // const clearHistory = () => {
-  //   setMessages([]);
-  //   localStorage.removeItem('chatMessages');
-  //   Toast({
-  //     description: "Chat history cleared",
-  //     duration: 2000,
-  //   });
-  // };
+  const clearHistory = () => {
+    setMessages([]);
+    if (isClient) {
+      localStorage.removeItem('chatMessages');
+    }
+    // Add toast notification here when you implement it
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -194,6 +202,15 @@ const PodcastQuery = () => {
     } finally {
       setLoading(false);
     }
+    console.log('Making request to:', API_URL);
+    const response = await fetch(`${API_URL}/query`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ question: userQuestion }),
+    });
+    console.log('Response:', await response.clone().json()); 
   };
 
   return (
@@ -204,7 +221,7 @@ const PodcastQuery = () => {
             <div className="flex items-center justify-between w-full">
               <CardTitle>The Skip Podcast Interactive Search</CardTitle>
               <div className="flex items-center gap-4">
-                {messages.length > 0 && (
+                {isClient && messages.length > 0 && (
                   <TooltipProvider>
                     <Tooltip>
                       <TooltipTrigger asChild>
@@ -224,13 +241,15 @@ const PodcastQuery = () => {
                   </TooltipProvider>
                 )}
                 <div className="relative w-12 h-12">
-                  <Image
-                    src="/skip-logo.png"
-                    alt="Skip Logo"
-                    fill
-                    style={{ objectFit: 'contain' }}
-                    priority
-                  />
+                  {isClient && (
+                    <Image
+                      src="/skip-logo.png"
+                      alt="Skip Logo"
+                      fill
+                      style={{ objectFit: 'contain' }}
+                      priority
+                    />
+                  )}
                 </div>
               </div>
             </div>
@@ -250,10 +269,12 @@ const PodcastQuery = () => {
                           : 'bg-slate-100 mr-4'
                       }`}
                     >
-                      <MessageActions 
-                        message={message} 
-                        onCopy={() => handleCopyMessage(message.content)}
-                      />
+                      {isClient && (
+                        <MessageActions 
+                          message={message} 
+                          onCopy={() => handleCopyMessage(message.content)}
+                        />
+                      )}
                       <p className="whitespace-pre-wrap">{message.content}</p>
                       {message.sources && message.sources.length > 0 && (
                         <div className="mt-2 text-sm opacity-80">
