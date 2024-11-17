@@ -1,52 +1,42 @@
+# File: backend/check_database.py
+
 import chromadb
 from sentence_transformers import SentenceTransformer
 import os
 
-def ingest_test_data():
-    # Initialize ChromaDB
+def check_database():
+    print("\n=== ChromaDB Check ===")
     DB_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "chroma_db")
+    print(f"Database directory: {DB_DIR}")
+    
     client = chromadb.PersistentClient(path=DB_DIR)
+    collection = client.get_collection("podcast_transcripts")
     
-    # Create or get collection
-    collection_name = "podcast_transcripts"
-    try:
-        collection = client.get_collection(collection_name)
-        print(f"Found existing collection: {collection_name}")
-    except:
-        collection = client.create_collection(collection_name)
-        print(f"Created new collection: {collection_name}")
+    print("\n=== Collection Contents ===")
+    results = collection.get()
     
-    # Test data
-    test_documents = [
-        {
-            "id": "ep001",
-            "content": """In this episode about crafting a career framework, Nikhyl discusses the importance 
-            of making deliberate career choices. He emphasizes five key questions that professionals should 
-            ask themselves when evaluating career moves. The discussion covers topics like understanding 
-            your strengths, identifying growth opportunities, and aligning your career with long-term goals.""",
-            "metadata": {
-                "episode_id": "ep001",
-                "title": "Episode 1: Crafting a career framework",
-                "url": "https://www.youtube.com/watch?v=ZoAwJxx9me0"
-            }
-        },
-        # Add more test episodes as needed
-    ]
+    print(f"Number of documents: {len(results['ids'])}")
+    print(f"Document IDs: {results['ids']}")
     
-    # Initialize embedding model
-    embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
+    if results['documents']:
+        print("\n=== First Document Sample ===")
+        print(results['documents'][0][:200])
+        print("\n=== First Document Metadata ===")
+        print(results['metadatas'][0])
     
-    # Add documents
-    for doc in test_documents:
-        embeddings = embedding_model.encode([doc['content']]).tolist()
-        
-        collection.add(
-            embeddings=embeddings,
-            documents=[doc['content']],
-            metadatas=[doc['metadata']],
-            ids=[doc['id']]
-        )
-        print(f"Added document: {doc['id']}")
+    print("\n=== Test Query ===")
+    # Test query about careers (matching our test document)
+    query_result = collection.query(
+        query_texts=["Tell me about career framework"],
+        n_results=1
+    )
+    
+    print(f"Query found {len(query_result['documents'][0]) if query_result['documents'] else 0} results")
+    if query_result['documents'] and query_result['documents'][0]:
+        print("\nMatching document:")
+        print(query_result['documents'][0][0][:200])
+        print("\nMetadata:")
+        print(query_result['metadatas'][0])
 
 if __name__ == "__main__":
-    ingest_test_data()
+    check_database()
