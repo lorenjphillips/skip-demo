@@ -23,9 +23,6 @@ print(f"Current working directory: {os.getcwd()}")
 print(f"Files in current directory: {os.listdir()}")
 print(f"Environment variables available: {list(os.environ.keys())}")
 
-# Initialize FastAPI app
-app = FastAPI()
-
 # Check for API key
 api_key = os.getenv("OPENAI_API_KEY")
 if not api_key:
@@ -38,38 +35,13 @@ print("\n=== API Key Check ===")
 print("OpenAI API key loaded successfully")
 print(f"API key length: {len(api_key)}")
 
-CORS_ORIGINS = [
-    "http://localhost:3000",
-    "https://skip-demo-47sqo5zkn-lorenphillips-protonmailcs-projects.vercel.app",
-    "https://theskipai.com",
-    "https://www.theskipai.com",  # Added www subdomain
-    "https://*.vercel.app",
-    "*"
-]
-
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=CORS_ORIGINS,
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-    expose_headers=["*"]
-)
-
 # Initialize OpenAI client
 client = OpenAI(api_key=api_key)
 print("\n=== OpenAI Client Initialized ===")
 
-import os
-import chromadb
-from sentence_transformers import SentenceTransformer
-from fastapi import FastAPI, HTTPException
-
-app = FastAPI()
-
 # Constants
 COLLECTION_NAME = "podcast_transcripts"
-IS_PRODUCTION = os.getenv("RAILWAY_ENVIRONMENT") == "production"
+IS_PRODUCTION = os.getenv("RENDER") == "true"
 DB_DIR = "/data/chroma_db" if IS_PRODUCTION else "./chroma_db"
 
 # Global variables to track initialization status
@@ -122,6 +94,25 @@ async def lifespan(app: FastAPI):
     # Shutdown logic would go here if needed
 
 app = FastAPI(lifespan=lifespan)
+
+# CORS configuration
+CORS_ORIGINS = [
+    "http://localhost:3000",
+    "https://skip-demo-47sqo5zkn-lorenphillips-protonmailcs-projects.vercel.app",
+    "https://theskipai.com",
+    "https://www.theskipai.com",  # Added www subdomain
+    "https://*.vercel.app",
+    "*"
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=CORS_ORIGINS,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+    expose_headers=["*"]
+)
 
 @app.get("/health")
 async def health_check():

@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: skip-demo-backend
+    runtime: docker
+    plan: starter
+    region: oregon
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    preDeployCommand: python ingest.py
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: RAILWAY_ENVIRONMENT
+        value: production
+      - key: PORT
+        value: 8000
+    disk:
+      name: chroma-data
+      mountPath: /data
+      sizeGB: 1

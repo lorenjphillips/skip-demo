@@ -10,14 +10,14 @@ import traceback
 class PodcastIngestion:
     def __init__(self, db_path: str = None):
         """Initialize the ingestion system with ChromaDB and the embedding model."""
-        # Determine if we're in production (Railway) or development
-        self.is_production = os.getenv("RAILWAY_ENVIRONMENT") == "production"
+        # Determine if we're in production (Render) or development
+        self.is_production = os.getenv("RENDER") == "true"
         
         # Set the appropriate DB path based on environment
         if db_path:
             self.db_path = db_path
         else:
-            self.db_path = "/app/chroma_db" if self.is_production else "./chroma_db"
+            self.db_path = "/data/chroma_db" if self.is_production else "./chroma_db"
         
         print(f"\n=== ChromaDB Setup ===")
         print(f"Environment: {'Production' if self.is_production else 'Development'}")
